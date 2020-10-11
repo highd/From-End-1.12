@@ -1,0 +1,9 @@
+advancements.fromend.end.root.title=ようこそ!
+advancements.fromend.end.root.description=ようこそ!
+advancements.fromend.end.break_endstone.title=コナゴナに
+advancements.fromend.end.break_endstone.description=エンドストーンを素手で破壊する。
+advancements.fromend.end.break_crystal.title=ひらめき
+advancements.fromend.end.break_crystal.description=Thaumcraftのクリスタルを破壊する。
+
+tooltip.fromend.dice=このアイテムを使うと、グリザイアの果実が手に入ることがあります。 ですがそれは「Item_Stages」によってロックされています。 ステージの名前は「UnLocked_Extra_Food」です。 ですので、地面には注意してください。
+tooltip.fromend.rewardbag=このアイテムを使うと、「Origin Creation-Omniscience」が手に入ることがあります。 ですがそれは「Item_Stages」によってロックされています。 ステージの名前は「UnLocked_Extra_Food」です。 ですので、地面には注意してください。

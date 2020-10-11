@@ -1,0 +1,162 @@
+{
+    "images": {
+        "title": {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : 17,
+            "posY" : 10,
+            "width" : 512,
+            "height" : 512
+        },
+		"modpack":{
+            "image":"mainmenu:logo.png",
+            "posX" : 17,
+            "posY" : 60,
+            "width" : 122.6,
+            "height" : 22.9
+        }
+    },
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture":"mainmenu:button.png",
+            "posX" : -230,
+            "posY" : 48,
+            "width" : 110,
+            "height" : 20,
+            "imageWidth":110,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "texture":"mainmenu:button.png",
+            "posX" : -230,
+            "posY" : 72,
+            "width" : 110,
+            "height" : 20,
+            "imageWidth":110,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "texture":"mainmenu:button.png",
+            "posX" : -230,
+            "posY" : 96,
+            "width" : 110,
+            "height" : 20,
+            "imageWidth":110,
+            "imageHeight":20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+            "texture":"mainmenu:config.png",
+            "posX" : -230,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth":40,
+            "imageHeight":40,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+            "texture":"mainmenu:quit.png",
+            "posX" : -200,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth":40,
+            "imageHeight":40,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "texture":"mainmenu:language.png",
+            "posX" : -170,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth":40,
+            "imageHeight":40,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 254,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    "other": {
+        "background":{
+            "image":"mainmenu:background.jpg",
+            "mode":"fill"
+        }
+    }
+}

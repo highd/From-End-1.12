@@ -1,0 +1,12 @@
+mods.avaritia.ExtremeCrafting.addShaped(
+"pe_philosophers_stone",
+<projecte:item.pe_philosophers_stone:0>,
+[[<endstart:extra:1>,<endstart:extra:1>,<ic2:iridium_reflector:0>,<ic2:iridium_reflector:0>,<ic2:iridium_reflector:0>,<ic2:iridium_reflector:0>,<ic2:iridium_reflector:0>,<endstart:extra:1>,<endstart:extra:1>],
+[<endstart:extra:1>,<ic2:iridium_reflector:0>,<cyclicmagic:crystallized_obsidian:0>,<astralsorcery:itemshiftingstar:0>,<abyssalcraft:essence:2>,<astralsorcery:itemshiftingstar:0>,<cyclicmagic:crystallized_obsidian:0>,<ic2:iridium_reflector:0>,<endstart:extra:1>],
+[<ic2:iridium_reflector:0>,<embers:wildfire_core:0>,<ic2:nuclear:10>,<deepmoblearning:pristine_matter_wither:0>,<thaumcraft:voidseer_charm:0>,<deepmoblearning:pristine_matter_wither:0>,<ic2:nuclear:10>,<embers:wildfire_core:0>,<ic2:iridium_reflector:0>],
+[<ic2:iridium_reflector:0>,<dcs_climate:dcs_coating_tool:7>,<extendedcrafting:storage:7>,<extrautils2:opinium:8>,<bloodarsenal:blood_diamond:2>,<extrautils2:opinium:8>,<extendedcrafting:storage:7>,<dcs_climate:dcs_coating_tool:7>,<ic2:iridium_reflector:0>],
+[<ic2:iridium_reflector:0>,<extrabotany:blockorichalcos:0>,<environmentaltech:aethium:0>,<bloodarsenal:blood_diamond:2>,<avaritia:resource:6>,<bloodarsenal:blood_diamond:2>,<environmentaltech:aethium:0>,<extrabotany:blockorichalcos:0>,<ic2:iridium_reflector:0>],
+[<ic2:iridium_reflector:0>,<rftools:infused_diamond:0>,<evilcraft:weather_container:3>,<draconicevolution:chaotic_core:0>,<bloodarsenal:blood_diamond:2>,<draconicevolution:chaotic_core:0>,<evilcraft:weather_container:3>,<rftools:infused_diamond:0>,<ic2:iridium_reflector:0>],
+[<ic2:iridium_reflector:0>,<thermalfoundation:storage:8>,<ic2:nuclear:10>,<mekanism:controlcircuit:3>,<dcs_climate:dcs_misc:9>,<mekanism:controlcircuit:3>,<ic2:nuclear:10>,<thermalfoundation:storage:8>,<ic2:iridium_reflector:0>],
+[<endstart:extra:1>,<ic2:iridium_reflector:0>,<extraplanets:tier11_items:4>,<forestry:crafting_material:6>,<extracells:storage.component:0>,<forestry:crafting_material:6>,<extraplanets:tier11_items:4>,<ic2:iridium_reflector:0>,<endstart:extra:1>],
+[<endstart:extra:1>,<endstart:extra:1>,<ic2:iridium_reflector:0>,<ic2:iridium_reflector:0>,<ic2:iridium_reflector:0>,<ic2:iridium_reflector:0>,<ic2:iridium_reflector:0>,<endstart:extra:1>,<endstart:extra:1>]]);

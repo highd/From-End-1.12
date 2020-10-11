@@ -1,0 +1,8 @@
+setIcon(<thaumcraft:crystal_aer>)
+setTranslatedTitle("advancements.fromend.end.break_crystal.title")
+setTranslatedDescription("advancements.fromend.end.break_crystal.description")
+addParent("triumph:test/break_endstone")
+addRewardFunction("triumph:unlock_thaumcraft")
+setPos(-140,0)
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock(<thaumcraft:crystal_aer>)
