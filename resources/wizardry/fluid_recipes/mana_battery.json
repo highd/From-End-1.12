@@ -1,0 +1,24 @@
+{
+	"output": {
+		"item": "wizardry:mana_battery"
+	},
+	"input": {
+		"type": "forge:ore_dict",
+		"ore": "gemDiamond"
+	},
+	"extraInputs": [
+		{
+			"item": "botania:livingrock",
+			"data": 0
+		},
+		{
+			"item": "wizardry:devil_dust"
+		},
+		{
+			"item": "thaumcraft:mirrored_glass"
+		}
+	],
+	"consume": true,
+	"explode": true,
+	"harp": false
+}

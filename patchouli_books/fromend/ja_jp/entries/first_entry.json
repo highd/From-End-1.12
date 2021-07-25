@@ -1,0 +1,11 @@
+{
+    "name": "テストページ",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:end_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "テストです。"
+        }
+    ]
+}

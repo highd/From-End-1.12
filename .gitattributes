@@ -1,0 +1,4 @@
+config/IC2.ini ic2ignore
+config/InvTweaks.cfg itignore
+config/splash.properties splashignore
+config/AppliedEnergistics2/VersionChecker.cfg aeignore

@@ -1,0 +1,121 @@
+advancements.fromend.end.root.title=Welcome!
+advancements.fromend.end.root.description=Welcome!
+advancements.fromend.end.break_endstone.title=Shatter
+advancements.fromend.end.break_endstone.description=Destroy the end stone with your bare hands.
+advancements.fromend.end.break_crystal.title=Flash
+advancements.fromend.end.break_crystal.description=Destroy the Crystal of Thaumcraft.
+advancements.fromend.end.get_end_dust.title=More shatter
+advancements.fromend.end.get_end_dust.description=Destroy the end stone with a "End Stone Shard".
+advancements.fromend.end.get_dirt.title=Ground.
+advancements.fromend.end.get_dirt.description=Get a Dirt.
+advancements.fromend.end.get_blood.title=You want blood
+advancements.fromend.end.get_blood.description=Attack enemy with a "End Stone Sword".
+advancements.fromend.end.end_stone_pickaxe.title=A lot of dust
+advancements.fromend.end.end_stone_pickaxe.description=Get "End Stone Pickaxe".
+advancements.fromend.end.get_carrot.title=Do you eat carrot?
+advancements.fromend.end.get_carrot.description=Get "Carrot Seeds".
+advancements.fromend.end.get_white_seed.title=Start magic of floor
+advancements.fromend.end.get_white_seed.description=Get　"Mystical White Seeds".
+advancements.fromend.end.get_living_rock.title=Is rock impregnated?
+advancements.fromend.end.get_living_rock.description=Get Livingrock.
+advancements.fromend.end.get_orechid.title=Mine worker
+advancements.fromend.end.get_orechid.description=Get a Orechid.
+advancements.fromend.end.get_seed.title=Start farming
+advancements.fromend.end.get_seed.description=Get seeds.
+advancements.fromend.end.get_iron.title=Iron Age
+advancements.fromend.end.get_iron.description=Get a "Iron Ingot".
+advancements.fromend.end.get_crafting_table.title=Mine"craft"
+advancements.fromend.end.get_crafting_table.description=Get a "Crafting Table".
+advancements.fromend.end.get_next_chalk.title=Next word.
+advancements.fromend.end.get_next_chalk.description=Get a "Red Black Chalk".
+advancements.fromend.end.get_bone_meal.title=Crush Bone
+advancements.fromend.end.get_bone_meal.description=Get a "Bone Meal".
+advancements.fromend.end.get_axe.title=Lumberjack
+advancements.fromend.end.get_axe.description=Get a "Stone Axe".
+advancements.fromend.end.get_horse.title=Your friend?
+advancements.fromend.end.get_horse.description=Get a Spawn Egg of Horse.
+advancements.fromend.end.get_grindstone.title=Grind
+advancements.fromend.end.get_grindstone.description=Get a "Horse Grindstone".
+advancements.fromend.end.get_sapling.title=Start
+advancements.fromend.end.get_sapling.description=Get a "Oak Sapling".
+advancements.fromend.end.get_wood.title=First?
+advancements.fromend.end.get_wood.description=Get a Wood.
+
+tooltip.fromend.dice=You may get "The Fruit of Grisaia" with this item. But it's locked by "Item Stages". The name of the stage is "UnLocked Extra Food". So be careful of the ground.
+tooltip.fromend.rewardbag=You may get "Origin Creation-Omniscience" with this item. But it's locked by "Item Stages". The name of the stage is "UnLocked Extra Food". So be careful of the ground.
+tooltip.fromend.windmill=
+
+advancements.fromend.steel.ember_bore.title=
+advancements.fromend.steel.ember_bore.description=
+
+advancements.fromend.steel.enrichment_chamber.title=
+advancements.fromend.steel.enrichment_chamber.description=
+
+advancements.fromend.steel.crushing_table.title=
+advancements.fromend.steel.crushing_table.description=
+
+advancements.fromend.steel.bucket.title=
+advancements.fromend.steel.bucket.description=
+
+advancements.fromend.steel.miner.title=
+advancements.fromend.steel.miner.description=
+
+advancements.fromend.steel.stone_decoration.title=
+advancements.fromend.steel.stone_decoration.description=
+
+advancements.fromend.steel.worktable.title=
+advancements.fromend.steel.worktable.description=
+
+advancements.fromend.steel.block_simple_alloy_smelter.title=
+advancements.fromend.steel.block_simple_alloy_smelter.description=
+
+advancements.fromend.steel.block_simple_sag_mill.title=
+advancements.fromend.steel.block_simple_sag_mill.description=
+
+advancements.fromend.steel.block_empowerer.title=
+advancements.fromend.steel.block_empowerer.description=
+
+advancements.fromend.steel.soul_forge.title=
+advancements.fromend.steel.soul_forge.description=
+
+advancements.fromend.steel.altar.title=
+advancements.fromend.steel.altar.description=
+
+advancements.fromend.steel.sapling.title=
+advancements.fromend.steel.sapling.description=
+
+advancements.fromend.steel.fluid_tr.title=
+advancements.fromend.steel.fluid_tr.description=
+
+advancements.fromend.steel.block_cut.title=
+advancements.fromend.steel.block_cut.description=
+
+advancements.fromend.steel.ad_circuit.title=
+advancements.fromend.steel.ad_circuit.description=
+
+advancements.fromend.steel.metal_form.title=
+advancements.fromend.steel.metal_form.description=
+
+advancements.fromend.steel.dcs_device_chamber.title=
+advancements.fromend.steel.dcs_device_chamber.description=
+
+advancements.fromend.steel.steel.title=
+advancements.fromend.steel.steel.description=
+
+advancements.fromend.escape.magic_craft.title=
+advancements.fromend.escape.magic_craft.description=
+
+advancements.fromend.escape.root.title=
+advancements.fromend.escape.root.description=
+
+advancements.fromend.escape.infusion_matrix.title=
+advancements.fromend.escape.infusion_matrix.description=
+
+advancements.fromend.escape.blood_iron.title=
+advancements.fromend.escape.blood_iron.description=
+
+advancements.fromend.escape.magic_craft.title=
+advancements.fromend.escape.magic_craft.description=
+
+advancements.fromend.escape.terraplate.title=
+advancements.fromend.escape.terraplate.description=

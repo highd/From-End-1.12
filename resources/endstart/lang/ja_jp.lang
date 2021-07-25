@@ -1,0 +1,141 @@
+advancements.fromend.end.root.title=ようこそ!
+advancements.fromend.end.root.description=ようこそ!
+advancements.fromend.end.break_endstone.title=コナゴナに
+advancements.fromend.end.break_endstone.description=エンドストーンを素手で破壊する。
+advancements.fromend.end.break_crystal.title=ひらめき
+advancements.fromend.end.break_crystal.description=Thaumcraftのクリスタルを破壊する。
+advancements.fromend.end.get_end_dust.title=さらにコナゴナに
+advancements.fromend.end.get_end_dust.description=エンドストーンを「エンドストーンの欠片」で破壊する。
+advancements.fromend.end.get_blood.title=血を求めて
+advancements.fromend.end.get_blood.description=敵をエンドストーンの剣で攻撃する。
+advancements.fromend.end.get_dirt.title=母なる大地を
+advancements.fromend.end.get_dirt.description=土を入手する。
+advancements.fromend.end.end_stone_pickaxe.title=たくさんの粉
+advancements.fromend.end.end_stone_pickaxe.description=エンドストーンのピッケルを入手する。
+advancements.fromend.end.get_carrot.title=人参食べる?
+advancements.fromend.end.get_carrot.description=人参の種(Carrot Seeds)を入手する。
+advancements.fromend.end.get_white_seed.title=お花魔術の始まり
+advancements.fromend.end.get_white_seed.description="Mystical White Seeds"を入手する。
+advancements.fromend.end.get_living_rock.title=石の生命は宿るだろうか?
+advancements.fromend.end.get_living_rock.description=リビングロックを入手する。
+advancements.fromend.end.get_orechid.title=鉱山作業員
+advancements.fromend.end.get_orechid.description=オアキドを入手する。
+advancements.fromend.end.get_seed.title=農耕の始まり
+advancements.fromend.end.get_seed.description=種を入手する。
+advancements.fromend.end.get_iron.title=鉄器時代
+advancements.fromend.end.get_iron.description=鉄インゴットを入手する。
+advancements.fromend.end.get_crafting_table.title=マイン「クラフト」
+advancements.fromend.end.get_crafting_table.description=作業台を入手する。
+advancements.fromend.end.get_next_chalk.title=さらなる文字を
+advancements.fromend.end.get_next_chalk.description=赤黒いチョークを入手する。
+advancements.fromend.end.get_bone_meal.title=骨砕き
+advancements.fromend.end.get_bone_meal.description=骨粉を入手する。
+advancements.fromend.end.get_axe.title=木こり
+advancements.fromend.end.get_axe.description=石の斧を入手する。
+advancements.fromend.end.get_horse.title=貴方の友達?
+advancements.fromend.end.get_horse.description=ウマのスポーンエッグを入手する。
+advancements.fromend.end.get_grindstone.title=すりつぶす
+advancements.fromend.end.get_grindstone.description=「Horse Grindstone」を入手する。
+advancements.fromend.end.get_sapling.title=基礎
+advancements.fromend.end.get_sapling.description=オークの苗木を入手する。
+advancements.fromend.end.get_wood.title=最初?
+advancements.fromend.end.get_wood.description=原木を入手する。
+advancements.fromend.steel.root.title=運輸への道
+advancements.fromend.steel.root.description=この環境ではアイテムの運送はスチールが必要です。
+advancements.fromend.steel.clayconia.title=粘土遊び
+advancements.fromend.steel.clayconia.description=クレイコニアを入手する。
+advancements.fromend.steel.bronze.title=合金の始まり
+advancements.fromend.steel.bronze.description=ブロンズを入手する
+advancements.fromend.steel.carpenter.title=初めての工業
+advancements.fromend.steel.carpenter.description=工作機を入手する
+
+tooltip.fromend.dice=このアイテムを使うと、グリザイアの果実が手に入ることがあります。 ですがそれは「Item_Stages」によってロックされています。 ステージの名前は「UnLocked_Extra_Food」です。 ですので、地面には注意してください。
+tooltip.fromend.rewardbag=このアイテムを使うと、「Origin Creation-Omniscience」が手に入ることがあります。 ですがそれは「Item_Stages」によってロックされています。 ステージの名前は「UnLocked_Extra_Food」です。 ですので、地面には注意してください。
+tooltip.fromend.windmill=八枚の帆をセットしている
+
+advancements.fromend.steel.ember_bore.title=初めての機械
+advancements.fromend.steel.ember_bore.description=熾火掘りを入手する
+
+advancements.fromend.steel.enrichment_chamber.title=品質向上!
+advancements.fromend.steel.enrichment_chamber.description=品質向上チャンバーを入手する
+
+advancements.fromend.steel.crushing_table.title=たたき台
+advancements.fromend.steel.crushing_table.description=「Crushing Table」を入手する
+
+advancements.fromend.steel.bucket.title=水汲み
+advancements.fromend.steel.bucket.description=バケツを入手する
+
+advancements.fromend.steel.miner.title=丸石集め
+advancements.fromend.steel.miner.description=「Mechanical Miner」を入手する
+
+advancements.fromend.steel.stone_decoration.title=クレイソート集め
+advancements.fromend.steel.stone_decoration.description=コークス炉用レンガを入手する
+
+advancements.fromend.steel.worktable.title=新たる作業台
+advancements.fromend.steel.worktable.description=「Engineer's Worktable」を入手する
+
+advancements.fromend.steel.block_simple_alloy_smelter.title=新たなる合金
+advancements.fromend.steel.block_simple_alloy_smelter.description=簡易型合金製錬機を入手する
+
+advancements.fromend.steel.block_simple_sag_mill.title=鉱石倍加
+advancements.fromend.steel.block_simple_sag_mill.description=簡易型準自生粉砕機を入手する
+
+advancements.fromend.steel.block_empowerer.title=力を合わせて
+advancements.fromend.steel.block_empowerer.description=「Empowerer」を入手する
+
+advancements.fromend.steel.soul_forge.title=地獄の業火
+advancements.fromend.steel.soul_forge.description=業火のかまどを入手する
+
+advancements.fromend.steel.altar.title=血を捧げよ
+advancements.fromend.steel.altar.description=血の祭壇を入手する
+
+advancements.fromend.steel.sapling.title=ゴムの木
+advancements.fromend.steel.sapling.description=「Rubber Pod」を入手する
+
+advancements.fromend.steel.fluid_tr.title=液体注入
+advancements.fromend.steel.fluid_tr.description=液体転移機を入手する
+
+advancements.fromend.steel.block_cut.title=カッティング!
+advancements.fromend.steel.block_cut.description=ブロック切断機を入手する
+
+advancements.fromend.steel.ad_circuit.title=新たなる回路
+advancements.fromend.steel.ad_circuit.description=上位電子回路を入手する
+
+advancements.fromend.steel.metal_form.title=金属のベテラン
+advancements.fromend.steel.metal_form.description=金属加工機を入手する
+
+advancements.fromend.steel.dcs_device_chamber.title=さらなる熱を
+advancements.fromend.steel.dcs_device_chamber.description=燃焼チャンバーを入手する
+
+advancements.fromend.steel.steel.title=スチール!
+advancements.fromend.steel.steel.description=スチールを入手する
+
+advancements.fromend.escape.root.title=脱出への道
+advancements.fromend.escape.root.description=エンダードラゴンを倒して、エンドを脱出しよう!
+
+advancements.fromend.escape.infusion_matrix.title=注入の儀式
+advancements.fromend.escape.infusion_matrix.description=ルーンのマトリクスを手に入れる
+
+advancements.fromend.escape.blood_iron.title=血のくろがね
+advancements.fromend.escape.blood_iron.description=血を注入した鉄インゴットを手に入れる
+
+advancements.fromend.escape.magic_craft.title=魔法の細工
+advancements.fromend.escape.magic_craft.description=Mage's Worktableを手に入れる
+
+advancements.fromend.escape.terraplate.title=大地の力
+advancements.fromend.escape.terraplate.description=大地性集結プレートを手に入れる
+
+advancements.fromend.escape.void_ore_miner_cont_1.title=虚空の採掘
+advancements.fromend.escape.void_ore_miner_cont_1.description=Void Ore Miner Controller Tier 1を手に入れる
+
+advancements.fromend.escape.void_ore_miner_cont_2.title=続・虚空の採掘
+advancements.fromend.escape.void_ore_miner_cont_2.description=Void Ore Miner Controller Tier 2を手に入れる
+
+advancements.fromend.escape.pylon.title=交易の始まり
+advancements.fromend.escape.pylon.description=ナツーラの支柱を手に入れる
+
+advancements.fromend.escape.oil_sand.title=石油王への道
+advancements.fromend.escape.oil_sand.description=含油砂を手に入れる
+
+advancements.fromend.escape.oil.title=石油王
+advancements.fromend.escape.oil.description=Oil Source (Full)を地面に置いて、その上にPumpjackを組み立て石油を汲み上げよう

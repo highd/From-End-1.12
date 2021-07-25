@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "minecraft:glowstone_dust"
+  },
+  "output": {
+    "item": "wizardry:devil_dust"
+  }
+}
