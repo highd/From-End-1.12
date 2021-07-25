@@ -1,0 +1,8 @@
+setTranslatedTitle("advancements.fromend.steel.bronze.title")
+setIcon(<embers:ingot_bronze, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.bronze.description")
+addParent("triumph:steel/ember_bore")
+setPos(-10,0)
+
+criteria = addCriteria("Get a bronze", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotBronze>)

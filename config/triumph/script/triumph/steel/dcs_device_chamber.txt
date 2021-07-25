@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.dcs_device_chamber.title")
+setIcon(<dcs_climate:dcs_device_chamber, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.dcs_device_chamber.description")
+addParent("triumph:steel/metal_form")
+setPos(350,0)
+criteria = addCriteria("<dcs_climate:dcs_device_chamber, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<dcs_climate:dcs_device_chamber, meta:0, count:1>)

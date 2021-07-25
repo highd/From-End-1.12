@@ -1,0 +1,10 @@
+{
+	"food": {
+		"items": [
+			"cyclicmagic:heart_food"
+		]
+	},
+	"name": "Exception",
+	"formula": "1",
+	"color": "gold"
+}

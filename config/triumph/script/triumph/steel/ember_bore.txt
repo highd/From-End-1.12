@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.ember_bore.title")
+setIcon(<embers:ember_bore, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.ember_bore.description")
+addParent("triumph:steel/clayconia")
+setPos(-38,0)
+criteria = addCriteria("<embers:ember_bore, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<embers:ember_bore, meta:0, count:1>)

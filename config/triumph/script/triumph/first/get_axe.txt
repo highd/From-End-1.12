@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_axe.title")
+setIcon(<minecraft:stone_axe>)
+setTranslatedDescription("advancements.fromend.end.get_axe.description")
+addParent("triumph:first/get_bone_meal")
+
+criteria = addCriteria("Get a stone axe", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:stone_axe>)
+
+setPos(250,0)

@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.75,
   "child": "vanilla:poppy_plant",
-  "parent1": "vanilla:sugarcane_plant",
+  "parent1": "vanilla:white_tulip_plant",
   "parent2": "vanilla:melon_plant"
 }

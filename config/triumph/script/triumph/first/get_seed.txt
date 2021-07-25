@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_seed.title")
+setIcon(<minecraft:wheat_seeds>)
+setTranslatedDescription("advancements.fromend.end.get_seed.description")
+addParent("triumph:first/get_wood")
+
+criteria = addCriteria("Get a wood", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat_seeds>)
+
+setPos(110,0)

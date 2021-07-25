@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.miner.title")
+setIcon(<extrautils2:miner, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.miner.description")
+addParent("triumph:steel/bucket")
+setPos(-10,30)
+criteria = addCriteria("<extrautils2:miner, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:miner, meta:0, count:1>)

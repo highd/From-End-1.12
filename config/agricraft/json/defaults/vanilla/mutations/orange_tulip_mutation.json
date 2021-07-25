@@ -4,5 +4,5 @@
   "chance": 0.75,
   "child": "vanilla:orange_tulip_plant",
   "parent1": "vanilla:daisy_plant",
-  "parent2": "vanilla:orchid_plant"
+  "parent2": "vanilla:red_tulip_plant"
 }

@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_living_rock.title")
+setIcon(<botania:livingrock, ore:livingrock>)
+setTranslatedDescription("advancements.fromend.end.get_living_rock.description")
+addParent("triumph:first/get_white_seed")
+
+criteria = addCriteria("Get a livingrock", "minecraft:inventory_changed")
+criteria.addItem(<botania:livingrock>)
+
+setPos(215,-35)

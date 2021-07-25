@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_crafting_table.title")
+setIcon(<minecraft:crafting_table>)
+setTranslatedDescription("advancements.fromend.end.get_crafting_table.description")
+addParent("triumph:first/get_iron")
+
+criteria = addCriteria("Get a crafting table", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:crafting_table>)
+
+setPos(285,-70)

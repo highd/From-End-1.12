@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_grindstone.title")
+setIcon(<horsepower:grindstone, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.end.get_grindstone.description")
+addParent("triumph:first/get_horse")
+
+criteria = addCriteria("first:Get a grindstone", "minecraft:inventory_changed")
+criteria.addItem(<horsepower:grindstone, meta:0, count:1>)
+
+setPos(215,60)

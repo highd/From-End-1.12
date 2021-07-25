@@ -4,5 +4,5 @@
   "chance": 0.5,
   "child": "vanilla:red_mushroom_plant",
   "parent1": "vanilla:potato_plant",
-  "parent2": "vanilla:carrot_plant"
+  "parent2": "vanilla:red_tulip_plant"
 }

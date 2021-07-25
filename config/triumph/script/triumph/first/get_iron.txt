@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_iron.title")
+setIcon(<minecraft:iron_ingot>)
+setTranslatedDescription("advancements.fromend.end.get_iron.description")
+addParent("triumph:first/get_orechid")
+
+criteria = addCriteria("Get a iron ingot", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_ingot>)
+
+setPos(250,-70)

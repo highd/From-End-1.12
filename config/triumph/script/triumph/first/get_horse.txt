@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_horse.title")
+setIcon(<minecraft:spawn_egg, meta:0, count:1, nbt:{EntityTag:{id:"minecraft:horse"}}>)
+setTranslatedDescription("advancements.fromend.end.get_horse.description")
+addParent("triumph:first/get_next_chalk")
+
+criteria = addCriteria("first:Get a horse", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:spawn_egg, meta:0, count:1, nbt:{EntityTag:{id:"minecraft:horse"}}>)
+
+setPos(179,30)

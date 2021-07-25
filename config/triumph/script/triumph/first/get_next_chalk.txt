@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_next_chalk.title")
+setIcon(<endstart:chalk, meta:1, count:1>)
+setTranslatedDescription("advancements.fromend.end.get_next_chalk.description")
+addParent("triumph:first/get_seed")
+
+criteria = addCriteria("Get a next chalk", "minecraft:inventory_changed")
+criteria.addItem(<endstart:chalk, meta:1, count:1>)
+
+setPos(145,0)

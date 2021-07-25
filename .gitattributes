@@ -1,4 +1,4 @@
-config/IC2.ini ic2ignore
-config/InvTweaks.cfg itignore
-config/splash.properties splashignore
-config/AppliedEnergistics2/VersionChecker.cfg aeignore
+config/IC2.ini filter=ic2ignore
+config/InvTweaks.cfg filter=itignore
+config/splash.properties filter=splashignore
+config/AppliedEnergistics2/VersionChecker.cfg filter=aeignore

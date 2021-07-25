@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.steel.title")
+setIcon(<thermalfoundation:material, ore:ingotSteel, meta:160, count:1>)
+setTranslatedDescription("advancements.fromend.steel.steel.description")
+addParent("triumph:steel/dcs_device_chamber")
+setPos(377,0)
+criteria = addCriteria("<thermalfoundation:material, ore:ingotSteel, meta:160, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotSteel>)

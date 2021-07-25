@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.stone_decoration.title")
+setIcon(<immersiveengineering:stone_decoration, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.stone_decoration.description")
+addParent("triumph:steel/clayconia")
+setPos(-38,-30)
+criteria = addCriteria("<immersiveengineering:stone_decoration, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:stone_decoration, meta:0, count:1>)

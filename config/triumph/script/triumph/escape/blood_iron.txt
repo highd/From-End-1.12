@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.blood_iron.title")
+setIcon(<bloodarsenal:base_item, ore:ingotBloodInfusedIron, meta:4, count:1>)
+setTranslatedDescription("advancements.fromend.escape.blood_iron.description")
+setPos(-57,30)
+addParent("triumph:escape/root")
+criteria = addCriteria("<bloodarsenal:base_item, ore:ingotBloodInfusedIron, meta:4, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<bloodarsenal:base_item, ore:ingotBloodInfusedIron, meta:4, count:1>)

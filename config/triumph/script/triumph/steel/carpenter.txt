@@ -1,0 +1,8 @@
+setTranslatedTitle("advancements.fromend.steel.carpenter.title")
+setIcon(<forestry:carpenter, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.carpenter.description")
+addParent("triumph:steel/bronze")
+setPos(18,0)
+
+criteria = addCriteria("Get a Ember Bore", "minecraft:inventory_changed")
+criteria.addItem(<forestry:carpenter, meta:0, count:1>)

@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_blood.title")
+setIcon(<endstart:item_blood:0>)
+setTranslatedDescription("advancements.fromend.end.get_blood.description")
+addParent("triumph:first/get_end_dust")
+
+criteria = addCriteria("Get a blood", "minecraft:inventory_changed")
+criteria.addItem(<endstart:item_blood:0>)
+
+setPos(5,0)

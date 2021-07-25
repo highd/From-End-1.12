@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_wood.title")
+setIcon(<minecraft:log:0>)
+setTranslatedDescription("advancements.fromend.end.get_wood.description")
+addParent("triumph:first/get_dirt")
+
+criteria = addCriteria("Get a wood", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:log:0>)
+
+setPos(75,0)

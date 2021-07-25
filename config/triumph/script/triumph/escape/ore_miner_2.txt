@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.void_ore_miner_cont_2.title")
+setIcon(<environmentaltech:void_ore_miner_cont_2, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.escape.void_ore_miner_cont_2.description")
+setPos(-57,-32)
+addParent("triumph:escape/ore_miner_1")
+criteria = addCriteria("<environmentaltech:void_ore_miner_cont_2, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<environmentaltech:void_ore_miner_cont_2, meta:0, count:1>)

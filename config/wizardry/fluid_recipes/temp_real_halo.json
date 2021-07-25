@@ -1,33 +1,34 @@
 {
 	"output": {
-		"item": "wizardry:halo_real",
-		"nbt": "{display:{Lore:[\"§7§oThis is a temporary recipe! Don't rely on it!\"]}}"
+		"item": "wizardry:halo_real"
 	},
 	"input": {
 		"item": "wizardry:halo_fake"
 	},
 	"extraInputs": [
 		{
-			"item": "minecraft:prismarine_shard"
+			"item": "thaumcraft:crystal_ordo"
 		},
 		{
-			"item": "minecraft:dragon_breath"
+			"item": "botania:manaresource",
+			"data": 4
 		},
 		{
-			"type": "forge:ore_dict",
-			"ore": "netherStar"
+			"item": "thaumcraft:crystal_ordo"
 		},
 		{
-			"item": "wizardry:fairy_dust"
+			"item": "bloodarsenal:base_item",
+			"data": 4
 		},
 		{
 			"item": "wizardry:devil_dust"
 		},
 		{
-			"item": "wizardry:unicorn_horn"
+			"item": "bloodarsenal:base_item",
+			"data": 4
 		}
 	],
-	"required": 25,
+	"required": 9,
 	"duration": 600,
 	"consume": true,
 	"explode": true

@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_carrot.title")
+setIcon(<agricraft:agri_seed, meta:0, count:1, nbt:{agri_seed:"vanilla:carrot_plant"}>)
+setTranslatedDescription("advancements.fromend.end.get_carrot.description")
+addParent("triumph:first/get_seed")
+
+criteria = addCriteria("Get a carrot", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:agri_seed, meta:0, count:1, nbt:{agri_seed:"vanilla:carrot_plant"}>)
+
+setPos(145,-35)

@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.magic_craft.title")
+setIcon(<artisanworktables:worktable, meta:7, count:1>)
+setTranslatedDescription("advancements.fromend.escape.magic_craft.description")
+addParent("triumph:escape/infusion_matrix")
+setPos(-57,0)
+criteria = addCriteria("<artisanworktables:worktable, meta:7, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<artisanworktables:worktable, meta:7, count:1>)

@@ -1,0 +1,120 @@
+[
+	{
+		"mode": "ADD",
+		"result": "endstart:extra,1,22",
+		"catalyst": "endstart:extra,1,21",
+		"energy": 1000000,
+		"tier": 2,
+		"ingredients": [
+			"draconicevolution:chaotic_core",
+			"draconicevolution:chaotic_core",
+			"botania:storage,1,1",
+			"botania:storage,1,1",
+			"dcs_climate:dcs_ore_metal_alloy,1,9",
+			"dcs_climate:dcs_ore_metal_alloy,1,9",
+			"extraplanets:kepler22b,1,14",
+			"extraplanets:kepler22b,1,14",
+			"bloodarsenal:blood_diamond,1,2",
+			"bloodarsenal:blood_diamond,1,2"
+		]
+	},{
+		"mode": "ADD",
+		"result": "avaritia:extreme_crafting_table",
+		"catalyst": "avaritia:double_compressed_crafting_table",
+		"energy": 10000000,
+		"tier": 2,
+		"ingredients": [
+			"ore:ingotOrichalcos",
+			"ore:ingotOrichalcos",
+			"extraplanets:tier10_items,1,5",
+			"extraplanets:tier10_items,1,5",
+			"abyssalcraft:psdl",
+			"abyssalcraft:psdl",
+			"extracells:storage.component,1,1",
+			"extracells:storage.component,1,1",
+			"thaumcraft:focus_3",
+			"thaumcraft:focus_3"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "projecte:collector_mk1",
+		"catalyst": "ic2:te,1,63",
+		"energy": 10000000,
+		"tier": 2,
+		"ingredients": [
+			"ore:blockLumium",
+			"ore:blockLumium",
+			"projecte:item.pe_matter",
+			"projecte:item.pe_matter",
+			"endstart:extra,1,20",
+			"endstart:extra,1,20",
+			"ore:blockThaumium",
+			"ore:blockThaumium",
+			"ore:ingotTerrasteel",
+			"ore:ingotTerrasteel"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "projecte:collector_mk2",
+		"catalyst": "projecte:collector_mk1",
+		"energy": 10000000,
+		"tier": 2,
+		"ingredients": [
+			"ore:blockLumium",
+			"ore:blockLumium",
+			"projecte:item.pe_matter,1,1",
+			"projecte:item.pe_matter,1,1",
+			"draconicevolution:wyvern_core",
+			"draconicevolution:wyvern_core",
+			"bloodarsenal:blood_diamond,1,1",
+			"bloodarsenal:blood_diamond,1,1",
+			"ore:blockToolSteel",
+			"ore:blockToolSteel"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "projecte:collector_mk3",
+		"catalyst": "projecte:collector_mk2",
+		"energy": 10000000,
+		"tier": 2,
+		"ingredients": [
+			"ore:blockLumium",
+			"ore:blockLumium",
+			"projectex:matter",
+			"projectex:matter",
+			"draconicevolution:chaotic_core",
+			"draconicevolution:chaotic_core",
+			"bloodarsenal:blood_diamond,1,2",
+			"bloodarsenal:blood_diamond,1,2",
+			"ore:blockVoid",
+			"ore:blockVoid"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:awakened_core:",
+		"catalyst": "ore:blockStellarAlloy",
+		"energy": 2000000,
+		"tier": 2,
+		"ingredients": [
+			"ore:circuitUltimate",
+			"ore:circuitUltimate",
+			"extendedcrafting:storage,1,7",
+			"extendedcrafting:storage,1,7",
+			"draconicevolution:draconic_energy_core,1,0",
+			"draconicevolution:draconic_energy_core,1,0",
+			"bloodarsenal:blood_infused_iron_block,1,0",
+			"bloodarsenal:blood_infused_iron_block,1,0",
+			"ore:ingotTerrasteel",
+			"ore:ingotTerrasteel"
+		]
+	},
+    {
+        "mode": "REMOVE",
+		"result": "draconicevolution:awakened_core:",
+        "catalyst": "minecraft:nether_star"
+    }    
+]

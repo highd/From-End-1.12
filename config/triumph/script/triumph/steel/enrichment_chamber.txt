@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.enrichment_chamber.title")
+setIcon(<mekanism:machineblock, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.enrichment_chamber.description")
+addParent("triumph:steel/carpenter")
+setPos(45,0)
+criteria = addCriteria("<mekanism:machineblock, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:machineblock, meta:0, count:1>)

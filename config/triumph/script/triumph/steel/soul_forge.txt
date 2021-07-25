@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.soul_forge.title")
+setIcon(<bloodmagic:soul_forge, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.soul_forge.description")
+addParent("triumph:steel/block_empowerer")
+setPos(158,0)
+criteria = addCriteria("<bloodmagic:soul_forge, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<bloodmagic:soul_forge, meta:0, count:1>)

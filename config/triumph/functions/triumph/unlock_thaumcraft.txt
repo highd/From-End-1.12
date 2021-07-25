@@ -1,0 +1,1 @@
+thaumcraft research @p FIRSTSTEPS

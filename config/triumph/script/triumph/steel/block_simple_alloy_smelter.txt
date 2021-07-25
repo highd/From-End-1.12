@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.block_simple_alloy_smelter.title")
+setIcon(<enderio:block_simple_alloy_smelter, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.block_simple_alloy_smelter.description")
+addParent("triumph:steel/enrichment_chamber")
+setPos(73,0)
+criteria = addCriteria("<enderio:block_simple_alloy_smelter, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<enderio:block_simple_alloy_smelter, meta:0, count:1>)

@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_white_seed.title")
+setIcon(<agricraft:agri_seed, meta:0, count:1, nbt:{agri_seed:"botania:white_flower_plant"}>)
+setTranslatedDescription("advancements.fromend.end.get_white_seed.description")
+addParent("triumph:first/get_carrot")
+
+criteria = addCriteria("Get a white seed", "minecraft:inventory_changed")
+criteria.addItem(<agricraft:agri_seed, meta:0, count:1, nbt:{agri_seed:"botania:white_flower_plant"}>)
+
+setPos(180,-35)

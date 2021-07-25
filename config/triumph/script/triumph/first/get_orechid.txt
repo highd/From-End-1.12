@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_orechid.title")
+setIcon(<botania:specialflower, meta:0, count:1, nbt:{type:"orechid"}>)
+setTranslatedDescription("advancements.fromend.end.get_orechid.description")
+addParent("triumph:first/get_white_seed")
+
+criteria = addCriteria("Get a orechid", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, meta:0, count:1, nbt:{type:"orechid"}>)
+
+setPos(215,-70)

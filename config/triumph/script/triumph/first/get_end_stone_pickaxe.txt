@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.end_stone_pickaxe.title")
+setIcon(<endstart:end_pickaxe:0>)
+setTranslatedDescription("advancements.fromend.end.end_stone_pickaxe.description")
+addParent("triumph:first/get_wood")
+
+criteria = addCriteria("Get a end stone pickaxe", "minecraft:inventory_changed")
+criteria.addItem(<endstart:end_pickaxe:0>)
+
+setPos(110,31)

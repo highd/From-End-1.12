@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_end_dust.title")
+setIcon(<endstart:extra:17>)
+setTranslatedDescription("advancements.fromend.end.get_end_dust.description")
+addParent("triumph:first/break_endstone")
+
+criteria = addCriteria("Get a End Stone Dust", "minecraft:inventory_changed")
+criteria.addItem(<endstart:extra:17>)
+
+setPos(-30,0)

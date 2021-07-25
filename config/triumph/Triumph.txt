@@ -1,0 +1,8 @@
+printDefaultConfigs(false)
+printDocumentation(false)
+removeAdvancements(false)
+removeModAdvancements(false)
+removeVanillaAdvancements:(false)
+allowDragging(true)
+useNewParentCompletionCriteriaNames()
+pageOrder([""])

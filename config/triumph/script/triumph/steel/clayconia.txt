@@ -1,0 +1,8 @@
+setTranslatedTitle("advancements.fromend.steel.clayconia.title")
+setIcon(<botania:specialflower, meta:0, count:1, nbt:{type:"clayconia"}>)
+setTranslatedDescription("advancements.fromend.steel.clayconia.description")
+addParent("triumph:steel/root")
+setPos(-74,0)
+
+criteria = addCriteria("Get a clayconia", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, meta:0, count:1, nbt:{type:"clayconia"}>)

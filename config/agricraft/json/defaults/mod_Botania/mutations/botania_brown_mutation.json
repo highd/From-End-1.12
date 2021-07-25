@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "botania:brown_flower_plant",
-  "parent1": "botania:yellow_flower_plant",
-  "parent2": "botania:white_flower_plant"
+  "parent1": "botania:red_flower_plant",
+  "parent2": "botania:black_flower_plant"
 }

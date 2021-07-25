@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.block_cut.title")
+setIcon(<ic2:te, meta:51, count:1>)
+setTranslatedDescription("advancements.fromend.steel.block_cut.description")
+addParent("triumph:steel/sapling")
+setPos(268,0)
+criteria = addCriteria("<ic2:te, meta:51, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<ic2:te, meta:51, count:1>)

@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.block_simple_sag_mill.title")
+setIcon(<enderio:block_simple_sag_mill, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.block_simple_sag_mill.description")
+addParent("triumph:steel/block_simple_alloy_smelter")
+setPos(101,0)
+criteria = addCriteria("<enderio:block_simple_sag_mill, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<enderio:block_simple_sag_mill, meta:0, count:1>)

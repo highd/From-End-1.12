@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.fluid_tr.title")
+setIcon(<thermalexpansion:machine, meta:8, count:1, nbt:{RSControl:0b,Facing:3b,Energy:0,SideCache:[B;3B,1B,2B,2B,2B,2B],Level:0b}>)
+setTranslatedDescription("advancements.fromend.steel.fluid_tr.description")
+addParent("triumph:steel/altar")
+setPos(213,0)
+criteria = addCriteria("<thermalexpansion:machine, meta:8, count:1, nbt:{RSControl:0b,Facing:3b,Energy:0,SideCache:[B;3B,1B,2B,2B,2B,2B],Level:0b}>", "minecraft:inventory_changed")
+criteria.addItem(<thermalexpansion:machine, meta:8, count:1>)

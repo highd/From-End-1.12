@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_dirt.title")
+setIcon(<minecraft:dirt:0>)
+setTranslatedDescription("advancements.fromend.end.get_dirt.description")
+addParent("triumph:first/get_blood")
+
+criteria = addCriteria("Get a dirt", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:dirt:0>)
+
+setPos(40,0)

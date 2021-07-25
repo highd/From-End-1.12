@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.steel.block_empowerer.title")
+setIcon(<actuallyadditions:block_empowerer, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.steel.block_empowerer.description")
+addParent("triumph:steel/block_simple_sag_mill")
+setPos(129,0)
+criteria = addCriteria("<actuallyadditions:block_empowerer, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<actuallyadditions:block_empowerer, meta:0, count:1>)

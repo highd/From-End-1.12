@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.oil_sand.title")
+setIcon(<thermalfoundation:ore_fluid, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.escape.oil_sand.description")
+setPos(-57,-64)
+addParent("triumph:escape/ore_miner_1")
+criteria = addCriteria("<thermalfoundation:ore_fluid, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:ore_fluid, meta:0, count:1>)

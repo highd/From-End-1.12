@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.infusion_matrix.title")
+setIcon(<thaumcraft:infusion_matrix, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.escape.infusion_matrix.description")
+addParent("triumph:escape/root")
+setPos(-90,0)
+criteria = addCriteria("<thaumcraft:infusion_matrix, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:infusion_matrix, meta:0, count:1>)

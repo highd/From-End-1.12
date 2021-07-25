@@ -1,0 +1,9 @@
+setTranslatedTitle("advancements.fromend.end.get_bone_meal.title")
+setIcon(<minecraft:dye, meta:15>)
+setTranslatedDescription("advancements.fromend.end.get_bone_meal.description")
+addParent("triumph:first/get_next_chalk")
+
+criteria = addCriteria("Get a bone meal", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:dye, meta:15>)
+
+setPos(215,0)

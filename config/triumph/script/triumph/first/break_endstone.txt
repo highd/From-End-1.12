@@ -1,0 +1,7 @@
+setIcon(<minecraft:end_stone>)
+setTranslatedTitle("advancements.fromend.end.break_endstone.title")
+setTranslatedDescription("advancements.fromend.end.break_endstone.description")
+addParent("triumph:first/root")
+setPos(-65,0)
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock(<minecraft:end_stone>)
