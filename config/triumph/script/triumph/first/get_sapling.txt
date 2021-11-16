@@ -1,9 +1,9 @@
 setTranslatedTitle("advancements.fromend.end.get_sapling.title")
-setIcon(<dynamictrees:oakseed:0>)
+setIcon(<minecraft:sapling, meta:0, count:1>)
 setTranslatedDescription("advancements.fromend.end.get_sapling.description")
 addParent("triumph:first/get_bone_meal")
 
 criteria = addCriteria("Get a white seed", "minecraft:inventory_changed")
-criteria.addItem(<dynamictrees:oakseed:0>)
+criteria.addItem(<minecraft:saplingg, meta:0, count:1>)
 
 setPos(250,60)

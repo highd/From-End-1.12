@@ -1,7 +1,7 @@
 setTranslatedTitle("advancements.fromend.escape.oil.title")
 setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"oil",Amount:1000}>)
 setTranslatedDescription("advancements.fromend.escape.oil.description")
-setPos(-23,-64)
+setPos(-29,-64)
 addParent("triumph:escape/oil_sand")
 criteria = addCriteria("<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"oil",Amount:1000}>", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"oil",Amount:1000}>)

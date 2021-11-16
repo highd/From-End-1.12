@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.nether_star.title")
+setIcon(<minecraft:nether_star, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.escape.nether_star.description")
+setPos(237,29)
+addParent("triumph:escape/wither_skull")
+criteria = addCriteria("<minecraft:nether_star, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:nether_star, meta:0, count:1>)

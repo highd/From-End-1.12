@@ -93,10 +93,15 @@
 			"ore:blockVoid"
 		]
 	},
+    {
+        "mode": "REMOVE",
+		"result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },
 	{
 		"mode": "ADD",
-		"result": "draconicevolution:awakened_core:",
-		"catalyst": "ore:blockStellarAlloy",
+		"result": "draconicevolution:awakened_core",
+		"catalyst": "enderio:block_alloy_endergy,1,3",
 		"energy": 2000000,
 		"tier": 2,
 		"ingredients": [
@@ -104,17 +109,12 @@
 			"ore:circuitUltimate",
 			"extendedcrafting:storage,1,7",
 			"extendedcrafting:storage,1,7",
-			"draconicevolution:draconic_energy_core,1,0",
-			"draconicevolution:draconic_energy_core,1,0",
-			"bloodarsenal:blood_infused_iron_block,1,0",
-			"bloodarsenal:blood_infused_iron_block,1,0",
+			"draconicevolution:draconic_energy_core",
+			"draconicevolution:draconic_energy_core",
+			"bloodarsenal:blood_infused_iron_block",
+			"bloodarsenal:blood_infused_iron_block",
 			"ore:ingotTerrasteel",
 			"ore:ingotTerrasteel"
 		]
-	},
-    {
-        "mode": "REMOVE",
-		"result": "draconicevolution:awakened_core:",
-        "catalyst": "minecraft:nether_star"
-    }    
+	}
 ]

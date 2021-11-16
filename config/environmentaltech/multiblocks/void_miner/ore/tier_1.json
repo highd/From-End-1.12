@@ -494,6 +494,26 @@
       "target": "black",
       "weight": 4,
       "id": "environmentaltech:lonsdaleite_crystal"
+    },
+    {
+      "target": "green",
+      "weight": 222,
+      "id": "OD:oreLargeGreen"
+    },
+    {
+      "target": "red",
+      "weight": 222,
+      "id": "OD:oreLargeRed"
+    },
+    {
+      "target": "blue",
+      "weight": 222,
+      "id": "OD:oreLargeBlue"
+    },
+    {
+      "target": "white",
+      "weight": 222,
+      "id": "OD:oreLargeWhite"
     }
   ]
 }

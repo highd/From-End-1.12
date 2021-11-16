@@ -1,0 +1,14 @@
+{
+    "name": "test entry",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:end_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "test."
+        },{
+            "type": "entity",
+			"entity": "endstart:end_zombie"
+		}
+    ]
+}

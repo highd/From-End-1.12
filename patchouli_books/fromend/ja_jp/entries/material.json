@@ -1,0 +1,11 @@
+{
+    "name": "素材",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:end_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "ここに記されたアイテムはただの素材であり、特殊な機能はありません。"
+        }
+    ]
+}

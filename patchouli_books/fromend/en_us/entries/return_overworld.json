@@ -1,0 +1,11 @@
+{
+    "name": "Possessions at the time of end escape",
+    "icon": "minecraft:grass",
+    "category": "patchouli:notes",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

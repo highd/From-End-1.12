@@ -1,0 +1,16 @@
+{
+    "name": "Foods",
+    "icon": "minecraft:apple",
+    "category": "patchouli:notes",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "type": "text",
+            "title": "The Spice of Life",
+            "text": ""
+        }
+    ]
+}

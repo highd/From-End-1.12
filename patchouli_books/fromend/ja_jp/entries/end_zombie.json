@@ -1,0 +1,14 @@
+{
+    "name": "エンドのゾンビ",
+    "icon": "endstart:extra:4",
+    "category": "patchouli:end_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "エンドのゾンビはエンドにスポーンするゾンビです。$(br2)基本的にゾンビより弱いようになっていますが、それでも敵対Mobのため注意して下さい。また、倒すとエンドの腐った肉を落とします。"
+        },{
+            "type": "entity",
+			"entity": "endstart:end_zombie"
+		}
+    ]
+}

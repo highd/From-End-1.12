@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.circuit_fabricator.title")
+setIcon(<galacticraftcore:machine2, meta:4, count:1>)
+setTranslatedDescription("advancements.fromend.escape.circuit_fabricator.description")
+setPos(116,-64)
+addParent("triumph:escape/print_circuit_board")
+criteria = addCriteria("<galacticraftcore:machine2, meta:4, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<galacticraftcore:machine2, meta:4, count:1>)

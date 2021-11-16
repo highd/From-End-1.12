@@ -34,21 +34,19 @@ mods.endstart.Chalk.add(<horsepower:chopper:0>.withTag({textureBlock:{id:"minecr
 mods.endstart.Chalk.add(<minecraft:lead>, 0, [<minecraft:string>,<minecraft:string>,<minecraft:string>,<minecraft:string>,<minecraft:string>,<minecraft:string>,<endstart:item_blood>]);
 mods.endstart.Chalk.add(<horsepower:grindstone:0>, 0, [<minecraft:stone>,<minecraft:stone>,<minecraft:stone>,<minecraft:stone>,<minecraft:stone>,<minecraft:stone>,<minecraft:stone>,<minecraft:stone>,<minecraft:lead>,<minecraft:lead>, <minecraft:stick>]);
 mods.endstart.Chalk.add(<minecraft:spawn_egg:0>.withTag({EntityTag:{id:"minecraft:horse"}}), 1, [<minecraft:carrot>, <minecraft:carrot>, <minecraft:carrot>, <endstart:item_blood:1>, <endstart:item_blood:1>, <endstart:item_blood:1>]);
-mods.endstart.Chalk.add(<dynamictrees:oakseed:0>, 2, [<minecraft:wheat_seeds:0>,<minecraft:pumpkin:0>,<minecraft:beetroot:0>,<endstart:item_blood:2>,<endstart:item_blood:2>,<endstart:item_blood:1>,<endstart:item_blood:1>,<endstart:item_blood:0>,<endstart:item_blood:0>,<minecraft:potato:0>,<minecraft:carrot:0>]);
+mods.endstart.Chalk.add(<minecraft:sapling:0>, 2, [<minecraft:wheat_seeds:0>,<minecraft:pumpkin:0>,<minecraft:beetroot:0>,<endstart:item_blood:2>,<endstart:item_blood:2>,<endstart:item_blood:1>,<endstart:item_blood:1>,<endstart:item_blood:0>,<endstart:item_blood:0>,<minecraft:potato:0>,<minecraft:carrot:0>]);
 recipes.addShaped(<endstart:bedrock_pickaxe>, [[null, <minecraft:bedrock>, null],[null, <minecraft:stick>, <minecraft:bedrock>], [<minecraft:stick>, null, null]]);
 recipes.addShaped(<minecraft:bedrock>, [[<extrautils2:compressedcobblestone:1>, null, <extrautils2:compressedcobblestone:1>],[null, <extrautils2:compressedcobblestone:1>, null], [<extrautils2:compressedcobblestone:1>, null, <extrautils2:compressedcobblestone:1>]]);
 mods.endstart.Chalk.add(<minecraft:paper:0>, 2, [<minecraft:reeds:0>, <minecraft:reeds:0>, <minecraft:reeds:0>]);
 mods.endstart.Chalk.add(<realistictorches:matchbox:0>, 2, [<quark:glass_shards:0>, <quark:glass_shards:0>, <minecraft:paper:0>, <minecraft:paper:0>, <minecraft:paper:0>, <minecraft:paper:0>, <minecraft:stick:0>, <minecraft:stick:0>, <minecraft:stick:0>]);
-mods.mekanism.sawmill.removeRecipe(<minecraft:log:0>, <survivalist:chopping_block:0> * 6, <mekanism:sawdust:0>);
-mods.mekanism.sawmill.addRecipe(<minecraft:log:0>, <minecraft:planks>*5, <mekanism:sawdust:0>, 1.0);
-mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:1>.withTag({T:1}));
+
 mods.endstart.Chalk.add(<botania:altar:0>, 2,[<minecraft:stonebrick:2>, <minecraft:stonebrick:2>, <minecraft:stonebrick:2>, <minecraft:stonebrick:2>, <minecraft:stonebrick:2>, <botania:petal:0>]);
 mods.endstart.Chalk.add(<botania:pool:2>, 2,[<botania:livingrock:1>, <botania:livingrock:1>, <botania:livingrock:1>, <botania:livingrock:1>, <botania:livingrock:1>]);
 mods.endstart.Chalk.add(<botania:spreader:0>, 2, [<botania:livingwood:0>, <botania:livingwood:0>, <botania:livingwood:0>, <botania:livingwood:0>, <botania:livingwood:0>, <botania:livingwood:0>, <botania:livingwood:0>, <botania:livingwood:0>, <botania:petal:0>]);
 mods.endstart.Chalk.add(<minecraft:bowl:0>, 2, [<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>]);
 mods.endstart.Chalk.add(<endstart:rack>, 2, [<botania:livingrock>, <botania:livingrock>, <botania:livingrock>, <botania:livingrock>, <minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>]);
 mods.endstart.Chalk.add(<minecraft:lava_bucket:0>, 2, [<realistictorches:torch_lit:0>,<realistictorches:torch_lit:0>, <extrautils2:compressedcobblestone:0>, <minecraft:bucket:0>]);
-mods.endstart.Chalk.add(<minecraft:grass:0>, 2, [<dynamictrees:oakseed:0>, <minecraft:dirt:0>]);
+mods.endstart.Chalk.add(<minecraft:grass:0>, 2, [<minecraft:sapling:0>, <minecraft:dirt:0>]);
 
 mods.endstart.Chalk.add(<minecraft:spawn_egg:0>.withTag({EntityTag:{id:"embers:ancient_golem"}}), 
    2, [<embers:shard_ember:0>, <embers:shard_ember:0>, <embers:shard_ember:0>, <endstart:extra:17>, <endstart:extra:17>]);
@@ -219,10 +217,16 @@ mods.botania.RuneAltar.removeRecipe(<botania:rune:4>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:5>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:6>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:7>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:9>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:10>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:11>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:12>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:13>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:14>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:15>);
 mods.pneumaticcraft.refinery.removeRecipes(<liquid:oil>);
 mods.pneumaticcraft.refinery.removeRecipes(<liquid:crude_oil>);
 mods.pneumaticcraft.refinery.addRecipe(323, <liquid:hot_crude> * 100, [<liquid:diesel> * 2, <liquid:kerosene> * 3, <liquid:lpg> * 3]);
-mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:2>.withTag({T:2}));
 
 mods.botania.ManaInfusion.addAlchemy(<magneticraft:oil_source:0>, <thermalfoundation:ore_fluid:0>, 10000);
 mods.botania.ManaInfusion.addAlchemy(<magneticraft:oil_source:0>, <thermalfoundation:ore_fluid:1>, 10000);
@@ -256,3 +260,162 @@ mods.botania.Apothecary.removeRecipe("hopperhock");
 
 mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:7>);
 mods.botania.ElvenTrade.addRecipe([<botania:manaresource:7>], [<enderio:item_alloy_ingot:2>]);
+
+mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:transistor:0>]);
+mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:capacitor:0>]);
+
+mods.mekanism.sawmill.removeRecipe(<minecraft:log:0>, <survivalist:chopping_block:0> * 6, <mekanism:sawdust:0>);
+mods.mekanism.sawmill.addRecipe(<minecraft:log:0>, <minecraft:planks>*6, <mekanism:sawdust:0>, 1.0);
+
+mods.mekanism.sawmill.removeRecipe(<minecraft:log:1>, <survivalist:chopping_block:4> * 6, <mekanism:sawdust:0>);
+mods.mekanism.sawmill.addRecipe(<minecraft:log:1>, <minecraft:planks:1>*6, <mekanism:sawdust:0>, 1.0);
+
+mods.mekanism.sawmill.removeRecipe(<minecraft:log:2>, <survivalist:chopping_block:8> * 6, <mekanism:sawdust:0>);
+mods.mekanism.sawmill.addRecipe(<minecraft:log:2>, <minecraft:planks:2>*6, <mekanism:sawdust:0>, 1.0);
+
+mods.mekanism.sawmill.removeRecipe(<minecraft:log:3>, <survivalist:chopping_block:12> * 6, <mekanism:sawdust:0>);
+mods.mekanism.sawmill.addRecipe(<minecraft:log:3>, <minecraft:planks:3>*6, <mekanism:sawdust:0>, 1.0);
+
+mods.mekanism.sawmill.removeRecipe(<minecraft:log2:0>, <survivalist:chopping_block2:0> * 6, <mekanism:sawdust:0>);
+mods.mekanism.sawmill.addRecipe(<minecraft:log2:0>, <minecraft:planks:4>*6, <mekanism:sawdust:0>, 1.0);
+
+mods.mekanism.sawmill.removeRecipe(<minecraft:log2:1>, <survivalist:chopping_block2:4> * 6, <mekanism:sawdust:0>);
+mods.mekanism.sawmill.addRecipe(<minecraft:log2:1>, <minecraft:planks:5>*6, <mekanism:sawdust:0>, 1.0);
+
+mods.mekanism.sawmill.addRecipe(<abyssalcraft:dltlog:0>, <abyssalcraft:dltplank:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<abyssalcraft:dreadlog:0>, <abyssalcraft:dreadplanks:0>*6, <mekanism:sawdust:0>, 1.0);
+
+mods.mekanism.sawmill.addRecipe(<evilcraft:undead_log:0>, <evilcraft:undead_plank:0>*6, <mekanism:sawdust:0>, 1.0);
+
+mods.mekanism.sawmill.addRecipe(<extrautils2:ironwood_log:0>, <extrautils2:ironwood_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<extrautils2:ironwood_log:1>, <extrautils2:ironwood_planks:1>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<integrateddynamics:menril_log:0>, <integrateddynamics:menril_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<harvestcraft:pamcinnamon:0>, <minecraft:planks:3>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<harvestcraft:pammaple:0>, <minecraft:planks:1>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<harvestcraft:pampaperbark:0>, <minecraft:planks:3>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<thaumcraft:log_greatwood:0>, <thaumcraft:plank_greatwood:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<thaumcraft:log_silverwood:0>, <thaumcraft:plank_silverwood:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<twilightforest:twilight_log:0>, <twilightforest:twilight_oak_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<twilightforest:twilight_log:1>, <twilightforest:canopy_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<twilightforest:twilight_log:2>, <twilightforest:mangrove_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<twilightforest:twilight_log:3>, <twilightforest:dark_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<twilightforest:magic_log:0>, <twilightforest:time_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<twilightforest:magic_log:1>, <twilightforest:trans_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<twilightforest:magic_log:2>, <twilightforest:mine_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+mods.mekanism.sawmill.addRecipe(<twilightforest:magic_log:3>, <twilightforest:sort_planks:0>*6, <mekanism:sawdust:0>, 1.0);
+
+mods.immersiveengineering.BottlingMachine.addRecipe(<astralsorcery:itemusabledust:0>, <bloodarsenal:base_item:2>, <liquid:astralsorcery.liquidstarlight>*500);
+
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2");
+mods.abyssalcraft.InfusionRitual.removeRitual(<abyssalcraft:transmutationgem:0>);
+mods.abyssalcraft.InfusionRitual.removeRitual(<abyssalcraft:oc:0>);
+mods.enderio.AlloySmelter.removeRecipe(<tconstruct:ingots:2>);
+
+mods.tconstruct.Alloy.removeRecipe(<liquid:manyullyn>);
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:2>);
+
+mods.forestry.Carpenter.addRecipe(<endstart:extra:26>, [
+  [<minecraft:redstone:0>,<minecraft:redstone:0>,<minecraft:redstone:0>],
+  [null,<ore:ingotTin>,null],
+  [<minecraft:redstone:0>,<minecraft:redstone:0>,<minecraft:redstone:0>]
+], 60);
+
+mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin>,     <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:beaches"}));
+mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin>,     <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:taiga"}));
+mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin>,     <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:forest"}));
+mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin> * 5, <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:mesa"}));
+mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:biome_coin>, <randomthings:biomecrystal:0>, 30000);
+
+mods.embers.Mixer.add(
+  <liquid:modularium_fluid>*15, 
+  [
+    <liquid:crystal>*7, 
+    <liquid:purifying_fluid>*1, 
+    <liquid:dawnstone>*7
+  ]
+);
+mods.mekanism.reaction.addRecipe(<mekanism:ingot:0>, <liquid:modularium_fluid>*1000, <gas:sulfuricacid>*40, <modularmachinery:itemmodularium:0>, <gas:oxygen>*10, 20000, 200);
+
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
+mods.embers.Alchemy.add(
+  <astralsorcery:blockblackmarble:0>, [
+    <astralsorcery:blockmarble:0>,
+    <ore:fuelCoke>,
+    <ore:fuelCoke>,
+    <deepmoblearning:soot_covered_redstone:0>,
+    <deepmoblearning:soot_covered_redstone:0>
+  ],{
+    "iron": 3 to 6,
+    "lead": 3 to 6
+
+  }
+);
+mods.embers.Alchemy.add(
+  <botania:manaresource:14>, [
+    <botania:manaresource:4>,
+    <botania:manaresource:5>,
+    <botania:manaresource:5>,
+    <botania:manaresource:5>,
+    <botania:manaresource:5>
+  ],{
+    "iron": 10 to 20,
+    "silver": 10 to 20,
+    "iron": 10 to 20,
+    "copper": 10 to 20
+  }
+);
+
+mods.mekanism.reaction.addRecipe(<mekanism:polyethene>, <liquid:liquidethene>, <gas:oxygen>, <mekanism:polyethene> * 8, <gas:oxygen>, 5000, 2000);
+
+mods.pneumaticcraft.assembly.addDrillRecipe(<modularmachinery:blockcasing:0>, <modulardiversity:blockmystmechinput:0>);
+
+mods.immersiveengineering.BottlingMachine.addRecipe(<thermalfoundation:material:1028>, <bloodarsenal:base_item:2>, <liquid:mana>*500);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(
+  <contenttweaker:ture_rune>, 
+  100000, 1000, 
+  <botania:livingrock>, 
+  [
+    <botania:rune:0>,
+    <botania:rune:1>,
+    <botania:rune:2>,
+    <botania:rune:3>,
+    <botania:rune:4>,
+    <botania:rune:5>,
+    <botania:rune:6>,
+    <botania:rune:7>,
+    <botania:rune:8>,
+    <botania:rune:9>,
+    <botania:rune:10>,
+    <botania:rune:11>,
+    <botania:rune:12>,
+    <botania:rune:13>,
+    <botania:rune:14>,
+    <botania:rune:15>,
+    <botanicadds:rune_tp>,
+    <botanicadds:rune_energy>
+  ]
+);
+
+
+mods.embers.Alchemy.add(
+  <randomthings:ingredient:3>, [
+    <randomthings:ingredient:2>,
+    <enderio:item_alloy_ingot:2>,
+    <actuallyadditions:item_crystal_empowered:1>,
+    <galacticraftcore:basic_block_moon:4>,
+    <galacticraftcore:basic_block_moon:4>
+  ],{
+    "iron": 32 to 48,
+    "copper": 32 to 48
+  }
+);
+
+mods.thermalexpansion.Factorizer.addRecipeSplit(<bloodarsenal:base_item:4>, <contenttweaker:blood_iron_nugget:0> * 9);
+mods.thermalexpansion.Factorizer.addRecipeCombine(<contenttweaker:blood_iron_nugget:0> * 9, <bloodarsenal:base_item:4>);
+
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:causality_collapser:0>);
+
+mods.botania.ElvenTrade.addRecipe([<endstart:extra:42>], [<evilcraft:environmental_accumulation_core:0>]);

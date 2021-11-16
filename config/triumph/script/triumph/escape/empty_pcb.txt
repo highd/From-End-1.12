@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.empty_pcb.title")
+setIcon(<pneumaticcraft:empty_pcb, meta:100, count:1>)
+setTranslatedDescription("advancements.fromend.escape.empty_pcb.description")
+setPos(28,-64)
+addParent("triumph:escape/lpg")
+criteria = addCriteria("<pneumaticcraft:empty_pcb, meta:100, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:empty_pcb, meta:100, count:1>)

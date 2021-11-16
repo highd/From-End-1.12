@@ -1,15 +1,15 @@
 {
   "recipeTemplate": {
-      "astralsorcery:blockaltar:0": "mods.astralsorcery.Altar.addDiscoveryAltarRecipe(\"mypackname:shaped/internal/altar/dirtfromstuff\", $(0,0),$(1,0),$(2,0),[$(0,1),$(1,1),$(2,1),$(0,2),$(1,2),$(2,2),$(0,3),$(1,3),$(2,3)]);",
-      "astralsorcery:blockaltar:1": "mods.astralsorcery.Altar.addAttunementAltarRecipe(\"mypackname:shaped/internal/altar/iguessmarble\", $(0,0),$(1,0),$(2,0),[$(1,2),$(2,2),$(3,2),$(1,3),$(2,3),$(3,3),$(1,4),$(2,4),$(3,4),$(0,1),$(4,1),$(0,5),$(4,5)]);",
-      "astralsorcery:blockaltar:2": "mods.astralsorcery.Altar.addConstellationAltarRecipe(\"mypackname:shaped/internal/altar/thisisveryexpensive\", $(0,0),$(1,0),$(2,0),[$(1,2),$(2,2),$(3,2),$(1,3),$(2,3),$(3,3),$(1,4),$(2,4),$(3,4),$(0,1),$(4,1),$(0,5),$(4,5),$(1,1),$(3,1),$(0,2),$(4,2),$(0,4),$(4,4),$(1,5),$(3,5)]);",
-	  "astralsorcery:blockaltar:3": "mods.astralsorcery.Altar.addConstellationAltarRecipe(\"mypackname:shaped/internal/altar/thisisveryexpensive\", $(0,0),$(1,0),$(2,0),[$(1,2),$(2,2),$(3,2),$(1,3),$(2,3),$(3,3),$(1,4),$(2,4),$(3,4),$(0,1),$(4,1),$(0,5),$(4,5),$(1,1),$(3,1),$(0,2),$(4,2),$(0,4),$(4,4),$(1,5),$(3,5),$(2,1),$(0,3),$(4,3),$(2,5),$(6,\"\",\",\")],$(0,7));",
+      "astralsorcery:blockaltar:0": "mods.astralsorcery.Altar.addDiscoveryAltarRecipe(\"$(3,0)\", $(0,0),$(1,0),$(2,0),[$(0,1),$(1,1),$(2,1),$(0,2),$(1,2),$(2,2),$(0,3),$(1,3),$(2,3)]);",
+      "astralsorcery:blockaltar:1": "mods.astralsorcery.Altar.addAttunementAltarRecipe(\"$(3,0)\", $(0,0),$(1,0),$(2,0),[$(1,2),$(2,2),$(3,2),$(1,3),$(2,3),$(3,3),$(1,4),$(2,4),$(3,4),$(0,1),$(4,1),$(0,5),$(4,5)]);",
+      "astralsorcery:blockaltar:2": "mods.astralsorcery.Altar.addConstellationAltarRecipe(\"$(3,0)\", $(0,0),$(1,0),$(2,0),[$(1,2),$(2,2),$(3,2),$(1,3),$(2,3),$(3,3),$(1,4),$(2,4),$(3,4),$(0,1),$(4,1),$(0,5),$(4,5),$(1,1),$(3,1),$(0,2),$(4,2),$(0,4),$(4,4),$(1,5),$(3,5)]);",
+	  "astralsorcery:blockaltar:3": "mods.astralsorcery.Altar.addTraitAltarRecipe(\"$(3,0)\", $(0,0),$(1,0),$(2,0),[$(1,2),$(2,2),$(3,2),$(1,3),$(2,3),$(3,3),$(1,4),$(2,4),$(3,4),$(0,1),$(4,1),$(0,5),$(4,5),$(1,1),$(3,1),$(0,2),$(4,2),$(0,4),$(4,4),$(1,5),$(3,5),$(2,1),$(0,3),$(4,3),$(2,5),$(6,\"$\",\",\")],\"astralsorcery.constellation.$(0,7)\");",
 	  "artisanworktables:worktable:0": "RecipeBuilder.get(\"basic\").setShaped([[$(0,1),$(1,1),$(2,1)],[$(0,2),$(1,2),$(2,2)],[$(0,3),$(1,3),$(2,3)]]).addOutput($(0,0))$(0,4,\".setFluid($)\")$(5,\".addTool($,10)\",\"\").create();",
 	  "artisanworktables:worktable:6": "RecipeBuilder.get(\"engineer\").setShaped([[$(0,1),$(1,1),$(2,1)],[$(0,2),$(1,2),$(2,2)],[$(0,3),$(1,3),$(2,3)]]).addOutput($(0,0))$(0,4,\".setFluid($)\")$(5,\".addTool($,10)\",\"\").create();",
 	  "artisanworktables:workshop:6": "RecipeBuilder.get(\"engineer\").setShaped([[$(0,1),$(1,1),$(2,1),$(3,1),$(4,1)],[$(0,2),$(1,2),$(2,2),$(3,2),$(4,2)],[$(0,3),$(1,3),$(2,3),$(3,3),$(4,3)],[$(0,4),$(1,4),$(2,4),$(3,4),$(4,4)],[$(0,5),$(1,5),$(2,5),$(3,5),$(4,5)]]).addOutput($(0,0))$(0,6,\".setFluid($)\")$(7,\".addTool($,10)\",\"\").create();",
 	  "artisanworktables:worktable:7": "RecipeBuilder.get(\"mage\").setShaped([[$(0,1),$(1,1),$(2,1)],[$(0,2),$(1,2),$(2,2)],[$(0,3),$(1,3),$(2,3)]]).addOutput($(0,0))$(0,4,\".setFluid($)\")$(5,\".addTool($,10)\",\"\").create();",
 	  "artisanworktables:workshop:7": "RecipeBuilder.get(\"mage\").setShaped([[$(0,1),$(1,1),$(2,1),$(3,1),$(4,1)],[$(0,2),$(1,2),$(2,2),$(3,2),$(4,2)],[$(0,3),$(1,3),$(2,3),$(3,3),$(4,3)],[$(0,4),$(1,4),$(2,4),$(3,4),$(4,4)],[$(0,5),$(1,5),$(2,5),$(3,5),$(4,5)]]).addOutput($(0,0))$(0,6,\".setFluid($)\")$(7,\".addTool($,10)\",\"\").create();",
-	  "abyssalcraft:ritualaltar:0": "mods.abyssalcraft.CreationRitual.addRitual($(1,0),$(2,0), $(3,0), $(4,0), $(5,0),$(0,0),[$(0,1),$(1,1),$(2,1),$(3,1),$(4,1),$(5,1),$(6,1),$(7,1)]);",
+	  "abyssalcraft:stone:0": "mods.abyssalcraft.InfusionRitual.addRitual($(1,0),$(2,0), $(3,0), $(4,0), $(5,0),$(0,0),$(6,0),[$(0,1),$(1,1),$(2,1),$(3,1),$(4,1),$(5,1),$(6,1),$(7,1)]);",
       "draconicevolution:crafting_injector:0": "{\"mode\": \"ADD\",\n\"result\": $(0,0),\n\"catalyst\": $(0,1),\"energy\": $(1,1),\"tier\": 0,\"ingredients\": [\n$(0,2),\n$(1,2),\n$(2,2),\n$(3,2),\n$(4,2),\n$(5,2),\n$(6,2),\n$(7,2),\n$(8,2),\n$(9,2),\n]},",
       "draconicevolution:crafting_injector:1": "{\"mode\": \"ADD\",\n\"result\": $(0,0),\n\"catalyst\": $(0,1),\"energy\": $(1,1),\"tier\": 1,\"ingredients\": [\n$(0,2),\n$(1,2),\n$(2,2),\n$(3,2),\n$(4,2),\n$(5,2),\n$(6,2),\n$(7,2),\n$(8,2),\n$(9,2),\n]},",
       "draconicevolution:crafting_injector:2": "{\"mode\": \"ADD\",\n\"result\": $(0,0),\n\"catalyst\": $(0,1),\"energy\": $(1,1),\"tier\": 2,\"ingredients\": [\n$(0,2),\n$(1,2),\n$(2,2),\n$(3,2),\n$(4,2),\n$(5,2),\n$(6,2),\n$(7,2),\n$(8,2),\n$(9,2),\n]},",
@@ -25,7 +25,8 @@
 	  "thaumcraft:infusion_matrix:0":"mods.thaumcraft.Infusion.registerRecipe(\"$(1,0)\", $(3,0), $(0,0), $(2,0), [$(3,\"$\",\",\")], $(0,1), [$(2,\"$\",\",\")]);",
 	  "avaritia:extreme_crafting_table:0":"mods.avaritia.ExtremeCrafting.addShaped(\"$(0,1)\",$(0,0),[[$(1,0),$(2,0),$(3,0),$(4,0),$(5,0),$(6,0),$(7,0),$(8,0),$(9,0)],[$(1,1),$(2,1),$(3,1),$(4,1),$(5,1),$(6,1),$(7,1),$(8,1),$(9,1)],[$(1,2),$(2,2),$(3,2),$(4,2),$(5,2),$(6,2),$(7,2),$(8,2),$(9,2)],[$(1,3),$(2,3),$(3,3),$(4,3),$(5,3),$(6,3),$(7,3),$(8,3),$(9,3)],[$(1,4),$(2,4),$(3,4),$(4,4),$(5,4),$(6,4),$(7,4),$(8,4),$(9,4)],[$(1,5),$(2,5),$(3,5),$(4,5),$(5,5),$(6,5),$(7,5),$(8,5),$(9,5)],[$(1,6),$(2,6),$(3,6),$(4,6),$(5,6),$(6,6),$(7,6),$(8,6),$(9,6)],[$(1,7),$(2,7),$(3,7),$(4,7),$(5,7),$(6,7),$(7,7),$(8,7),$(9,7)],[$(1,8),$(2,8),$(3,8),$(4,8),$(5,8),$(6,8),$(7,8),$(8,8),$(9,8)]]);mods.extendedcrafting.TableCrafting.addShaped(4,$(0,0),[[$(1,0),$(2,0),$(3,0),$(4,0),$(5,0),$(6,0),$(7,0),$(8,0),$(9,0)],[$(1,1),$(2,1),$(3,1),$(4,1),$(5,1),$(6,1),$(7,1),$(8,1),$(9,1)],[$(1,2),$(2,2),$(3,2),$(4,2),$(5,2),$(6,2),$(7,2),$(8,2),$(9,2)],[$(1,3),$(2,3),$(3,3),$(4,3),$(5,3),$(6,3),$(7,3),$(8,3),$(9,3)],[$(1,4),$(2,4),$(3,4),$(4,4),$(5,4),$(6,4),$(7,4),$(8,4),$(9,4)],[$(1,5),$(2,5),$(3,5),$(4,5),$(5,5),$(6,5),$(7,5),$(8,5),$(9,5)],[$(1,6),$(2,6),$(3,6),$(4,6),$(5,6),$(6,6),$(7,6),$(8,6),$(9,6)],[$(1,7),$(2,7),$(3,7),$(4,7),$(5,7),$(6,7),$(7,7),$(8,7),$(9,7)],[$(1,8),$(2,8),$(3,8),$(4,8),$(5,8),$(6,8),$(7,8),$(8,8),$(9,8)]]);",
 	  "minecraft:glass:0":"mods.forestry.ThermionicFabricator.addCast($(0,0), [[$(0,1),$(1,1),$(2,1)],[$(0,2),$(1,2),$(2,2)],[$(0,3),$(1,3),$(2,3)]], <liquid: glass> * $(1,0));",
-	  "bloodmagic:soul_forge:0":"mods.bloodmagic.TartaricForge.addRecipe($(0,0),[$(0,1), $(1,1), $(2,1), $(3,1)], $(1,0), $(2,0));"
+	  "bloodmagic:soul_forge:0":"mods.bloodmagic.TartaricForge.addRecipe($(0,0),[$(0,1), $(1,1), $(2,1), $(3,1)], $(1,0), $(2,0));",
+	  "enderio:block_decoration1:14":"mods.abyssalcraft.SummonRitual.addRitual(\"$(1,0)\", $(0,2), $(1,2), $(2,2), $(3,2), \"$(0,0)\", [$(1,\"$\",\",\")]);"
   },
   "nbtFilter": {
     "abyssalcraft:sacrificialaltar:0":["PotEnergy"],
@@ -40,7 +41,9 @@
 	"abyssalcraft:tieredenergypedestal:3":["PotEnergy"],
 	"enderio:itemBrokenSpawner:0":["isVariant","entityId"],
 	"wizardry:nacre_pearl:0":["rand","complete","purity_override"],
-	"agricraft:agri_seed:0":["agri_analyzed","agri_strength","agri_gain","agri_growth"]
+	"agricraft:agri_seed:0":["agri_analyzed","agri_strength","agri_gain","agri_growth"],
+	"thermalexpansion:machine:0":["RSControl","Facing","Energy","SideCache","Level"],
+	"randomthings:timeinabottle:0":["timeData.storedTime"]
   },
   "widthMap": {
     "minecraft:chest": 9,

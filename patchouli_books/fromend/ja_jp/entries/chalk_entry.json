@@ -1,0 +1,62 @@
+{
+    "name": "チョーク",
+    "icon": "endstart:chalk",
+    "category": "patchouli:end_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "チョークは魔法文字を書くためのアイテムです。そして、魔法文字はこのModPackの序盤の資材集めに用いるシステムです。$(br2) このシステムの使い方ですが、まず非透過ブロックにこのチョークを使います。"
+        },
+        {
+            "type": "image",
+			"title": "チョーク",
+			"images": [
+				"endstart:patchouli/chalk_1.png"
+			]
+        },
+        {
+            "type": "text",
+            "text": "書いた魔法文字に必要なアイテムを右クリックで配置します。$(br2) レシピはJEIで確認して下さい。真ん中のアイテムは使用する魔法文字を書くチョークの種類で、その周りが必要なアイテムです。"
+        },
+        {
+            "type": "image",
+			"title": "アイテムの配置",
+			"images": [
+				"endstart:patchouli/chalk_2.png"
+			]
+        },
+        {
+            "type": "text",
+            "text": "その後、魔法文字の2ブロック以上からエンドの砂を落とします。バニラの砂同様、1マス上だと落ちてくれないので注意です。"
+        },
+        {
+            "type": "image",
+			"title": "エンドの砂",
+			"images": [
+				"endstart:patchouli/chalk_3.png"
+			]
+        },
+        {
+            "type": "text",
+            "text": "レシピが合っていれば、アイテムが作成されます。ですがこのままでは取得できません。エンドの棒で、砂を取り除くことで取得できます。$(br2) レシピを間違えた場合、アイテムを作成されませんが素材はそのまま残ります。その場合も同様に砂を取り除かなければ素材を回収できません。$(br2) また、この際、エンドストーンの粉が少し帰ってきます。"
+        },
+        {
+            "type": "image",
+			"title": "完成",
+			"images": [
+				"endstart:patchouli/chalk_4.png"
+			]
+        },
+        {
+            "type": "text",
+            "text": "砂を取り除けば、右クリックで完成品を取得できます。$(br2) また、shift+右クリックで前回作成したアイテムの素材を自動で配置できます。botaniaのルーンの祭壇などと同じような仕様です。"
+        },
+        {
+            "type": "image",
+			"title": "取得",
+			"images": [
+				"endstart:patchouli/chalk_4.png"
+			]
+        }
+    ]
+}

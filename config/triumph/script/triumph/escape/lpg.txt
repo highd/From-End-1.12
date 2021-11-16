@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.lpg.title")
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"lpg",Amount:1000}>)
+setTranslatedDescription("advancements.fromend.escape.lpg.description")
+setPos(-1,-64)
+addParent("triumph:escape/oil")
+criteria = addCriteria("<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"lpg",Amount:1000}>", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"lpg",Amount:1000}>)

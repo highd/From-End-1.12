@@ -1,0 +1,70 @@
+{
+    "machine": "mana_mixer",
+    "registryName": "primal_mana_mixer",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "mana",
+            "io-type": "input",
+            "mana": 10000
+        },{
+            "type": "mechanical",
+            "io-type": "input",
+            "level": 1,
+            "crank-allowed": false
+        },{
+            "type": "mekheat",
+            "io-type": "input",
+            "temperatureRequiredMin": 10,
+            "temperature": 1000
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "enderium",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1024",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1025",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1026",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1027",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "dcs_climate:dcs_reagent@12",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:block_infinity_fog",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "mana",
+            "amount": 500
+        }
+    ]
+}

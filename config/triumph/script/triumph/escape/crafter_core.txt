@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.crafter_core.title")
+setIcon(<endstart:crafter_core, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.escape.crafter_core.description")
+setPos(58,63)
+addParent("triumph:escape/root")
+criteria = addCriteria("<endstart:crafter_core, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<endstart:crafter_core, meta:0, count:1>)

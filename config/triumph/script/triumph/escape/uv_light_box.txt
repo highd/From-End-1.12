@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.uv_light_box.title")
+setIcon(<pneumaticcraft:uv_light_box, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.escape.uv_light_box.description")
+setPos(58,-64)
+addParent("triumph:escape/empty_pcb")
+criteria = addCriteria("<pneumaticcraft:uv_light_box, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:uv_light_box, meta:0, count:1>)

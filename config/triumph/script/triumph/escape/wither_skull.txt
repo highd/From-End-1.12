@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.wither_skull.title")
+setIcon(<minecraft:skull, ore:itemSkull, meta:1, count:1>)
+setTranslatedDescription("advancements.fromend.escape.wither_skull.description")
+setPos(207,29)
+addParent("triumph:escape/nolife_skull")
+criteria = addCriteria("<minecraft:skull, ore:itemSkull, meta:1, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:skull, ore:itemSkull, meta:1, count:1>)

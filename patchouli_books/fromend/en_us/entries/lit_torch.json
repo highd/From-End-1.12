@@ -1,0 +1,11 @@
+{
+    "name": "What to bring with you when you return to the overworld",
+    "icon": "minecraft:grass",
+    "category": "patchouli:notes",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

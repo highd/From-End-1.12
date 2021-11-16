@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.stone_dust.title")
+setIcon(<ic2:dust, meta:15, count:1>)
+setTranslatedDescription("advancements.fromend.escape.stone_dust.description")
+setPos(58,94)
+addParent("triumph:escape/root")
+criteria = addCriteria("<ic2:dust, meta:15, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<ic2:dust, meta:15, count:1>)

@@ -119,3 +119,9 @@ advancements.fromend.escape.magic_craft.description=
 
 advancements.fromend.escape.terraplate.title=
 advancements.fromend.escape.terraplate.description=
+
+book.fromend.name=This manual
+book.fromend.landing_text=This manual explains how to proceed, precautions, and the original system with this Modpack
+
+ac.ritual.cultistportallesser=Summon Lesser Crimson Portal
+ac.ritual.cultistportallesser.desc=

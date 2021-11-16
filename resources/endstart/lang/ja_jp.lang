@@ -139,3 +139,60 @@ advancements.fromend.escape.oil_sand.description=含油砂を手に入れる
 
 advancements.fromend.escape.oil.title=石油王
 advancements.fromend.escape.oil.description=Oil Source (Full)を地面に置いて、その上にPumpjackを組み立て石油を汲み上げよう
+
+advancements.fromend.hot_crude.title=石油は温めますか?
+advancements.fromend.hot_crude.description=Oil Heaterを組み立て、石油を温めてHot Crudeを入手する
+
+advancements.fromend.escape.lpg.title=蒸留の時間
+advancements.fromend.escape.lpg.description=RefineryでHot Crudeを蒸留する。Refineryは二つありますが、どちらでも大丈夫です。
+
+advancements.fromend.escape.plastic.title=プラスチック
+advancements.fromend.escape.plastic.description=プラスチックを入手する
+
+advancements.fromend.escape.empty_pcb.title=空のキャンバス
+advancements.fromend.escape.empty_pcb.description=Empty PCBを入手する
+
+advancements.fromend.escape.uv_light_box.title=紫外線との付き合い
+advancements.fromend.escape.uv_light_box.description=UV Light Boxを入手する
+
+advancements.fromend.escape.print_circuit_board.title=電子の世界
+advancements.fromend.escape.print_circuit_board.description=Printed Circuit Boardを入手する
+
+advancements.fromend.escape.circuit_fabricator.title=また別の回路
+advancements.fromend.escape.circuit_fabricator.description=回路作成機を入手する
+
+advancements.fromend.escape.slice_and_splice.title=Let's スライス!
+advancements.fromend.escape.slice_and_splice.description=スライスンスプライスを入手する
+
+advancements.fromend.escape.stone_dust.title=石を粉砕・・あれ?
+advancements.fromend.escape.stone_dust.description=石の粉を手に入れる。入手手段は二つありますが、粉砕機では手に入りません。
+
+advancements.fromend.escape.chunk_mithril.title=ミスリル!
+advancements.fromend.escape.chunk_mithril.description=Mithril Chunkを手に入れる。
+
+advancements.fromend.escape.crafter_core.title=図書館でクラフト
+advancements.fromend.escape.crafter_core.description=クラスターコアを手に入れる。エンドの空中に浮いている建物で手に入る。
+
+advancements.fromend.escape.nolife_skull.title=命無き者
+advancements.fromend.escape.nolife_skull.description=生命なきウィザースケルトンスカルを手に入れる
+
+advancements.fromend.escape.wither_skull.title=命ある・・あるのか?
+advancements.fromend.escape.wither_skull.description=ウィザースケルトンの頭蓋骨を手に入れる
+
+advancements.fromend.escape.nether_star.title=はじまり・・
+advancements.fromend.escape.nether_star.description=ネザースターを手にいれる
+
+advancements.fromend.escape.end_crystal.title=おしまい?いや、はじまり。
+advancements.fromend.escape.end_crystal.description=エンドクリスタルを手に入れる。
+
+advancements.fromend.escape.to_overworld.title=おかえり
+advancements.fromend.escape.to_overworld.description=オーバーワールドに帰還する。あ、一応何も持ってなくても詰みませんが、持っていった方がいいアイテムはあります詳しくは説明書を見て下さい。
+
+advancements.fromend.map.root.title=道先案内人
+advancements.fromend.map.root.description=JournyMapの解放を目指しましょう。他にもいろいろ寄り道しましょう。
+
+book.fromend.name=From Endの説明書
+book.fromend.landing_text=この説明書ではこのModpackの進め方や注意事項、独自システムについて解説します。
+
+ac.ritual.cultistportallesser=紅の小ポータルの召喚
+ac.ritual.cultistportallesser.desc=

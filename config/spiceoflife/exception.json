@@ -1,7 +1,8 @@
 {
 	"food": {
 		"items": [
-			"cyclicmagic:heart_food"
+			"cyclicmagic:heart_food",
+			"thaumcraft:brain"
 		]
 	},
 	"name": "Exception",

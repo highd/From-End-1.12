@@ -1,0 +1,30 @@
+{
+    "name": "食料",
+    "icon": "minecraft:apple",
+    "category": "patchouli:notes",
+    "pages": [
+        {
+            "type": "text",
+            "text": "この環境においては、いくつかのModによって空腹度関連の仕様が変更されています。これの項目ではそれらについて解説します。"
+        },
+        {
+            "type": "text",
+            "title": "The Spice of Life",
+            "text": "同じものを連続で食べ続けると、回復量が減少し、食べる速度も遅くなります。そのため、ステーキだけとか、パンだけ食べ続けるみたいなプレイはできません。$(br)Thaumcraftのゾンビの脳(Zombie Brain)、CyclicのHeart Containerはこの例外となっています。"
+        },
+        {
+            "type": "text",
+            "text": "また、このModの影響を受けずに空腹度を回復できるアイテムがありますが、それらはロックされています。$(li)Botaniaのグリザイアの果実(The Fruit of Grisaia) $(li)ExtraBotanyのOrigin Creation - Ominiscience $(li)新緑の心の魔除け(Verdant Heart Charm) $(li)IndustrialCraft 2の缶詰(中身入){(Filled) Tin Can} $(li)IndustrialCraft 2の量子スーツ・ヘルメット(QuantumSuit Helmet)"
+        },
+        {
+            "type": "text",
+            "title": "Hunger In Peace",
+            "text": "本来、難易度がピースフルの場合、空腹度は何も食べなくても回復しますが、このModの影響で回復しません。そのため、難易度ピースフルでも食料集めは必要となります。"
+        },
+        {
+            "type": "text",
+            "title": "Hunger Persistence",
+            "text": "本来、リスポーン時には空腹度を全快の状態になりますが、このModの状態で少しだけ回復した状態でリスポーンします。死んだ時より空腹度が減少することはありません。"
+        }
+    ]
+}

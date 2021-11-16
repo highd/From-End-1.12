@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.to_overworld.title")
+setIcon(<minecraft:grass, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.escape.to_overworld.description")
+setPos(294,29)
+addParent("triumph:escape/end_crystal")
+criteria = addCriteria("to overworld", "minecraft:changed_dimension")
+criteria.setDimensionDestination("minecraft:overworld")

@@ -1,0 +1,62 @@
+{
+    "name": "WIP",
+    "icon": "endstart:chalk_red",
+    "category": "patchouli:end_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "WIP"
+        },
+        {
+            "type": "image",
+			"title": "WIP",
+			"images": [
+				"endstart:patchouli/chalk_1.png"
+			]
+        },
+        {
+            "type": "text",
+            "text": "WIP"
+        },
+        {
+            "type": "image",
+			"title": "WIP",
+			"images": [
+				"endstart:patchouli/chalk_2.png"
+			]
+        },
+        {
+            "type": "text",
+            "text": "WIP"
+        },
+        {
+            "type": "image",
+			"title": "WIP",
+			"images": [
+				"endstart:patchouli/chalk_3.png"
+			]
+        },
+        {
+            "type": "text",
+            "text": "WIP"
+        },
+        {
+            "type": "image",
+			"title": "WIP",
+			"images": [
+				"endstart:patchouli/chalk_4.png"
+			]
+        },
+        {
+            "type": "text",
+            "text": "WIP"
+        },
+        {
+            "type": "image",
+			"title": "WIP",
+			"images": [
+				"endstart:patchouli/chalk_4.png"
+			]
+        }
+    ]
+}

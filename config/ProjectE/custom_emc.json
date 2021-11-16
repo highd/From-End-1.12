@@ -11,6 +11,10 @@
     {
       "item": "projecte:item.pe_fuel|2",
       "emc": 8192
+    },
+    {
+      "item": "avaritia:resource|0",
+      "emc": 60000
     }
   ]
 }

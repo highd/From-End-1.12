@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.escape.slice_and_splice.title")
+setIcon(<enderio:block_slice_and_splice, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.escape.slice_and_splice.description")
+setPos(145,-64)
+addParent("triumph:escape/circuit_fabricator")
+criteria = addCriteria("<enderio:block_slice_and_splice, meta:0, count:1>", "minecraft:inventory_changed")
+criteria.addItem(<enderio:block_slice_and_splice, meta:0, count:1>)
