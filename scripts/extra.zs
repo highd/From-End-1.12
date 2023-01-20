@@ -312,8 +312,6 @@ mods.abyssalcraft.InfusionRitual.removeRitual(<abyssalcraft:transmutationgem:0>)
 mods.abyssalcraft.InfusionRitual.removeRitual(<abyssalcraft:oc:0>);
 mods.enderio.AlloySmelter.removeRecipe(<tconstruct:ingots:2>);
 
-mods.tconstruct.Alloy.removeRecipe(<liquid:manyullyn>);
-
 mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:2>);
 
 mods.forestry.Carpenter.addRecipe(<endstart:extra:26>, [
@@ -322,9 +320,9 @@ mods.forestry.Carpenter.addRecipe(<endstart:extra:26>, [
   [<minecraft:redstone:0>,<minecraft:redstone:0>,<minecraft:redstone:0>]
 ], 60);
 
-mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin>,     <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:beaches"}));
-mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin>,     <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:taiga"}));
-mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin>,     <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:forest"}));
+mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin> * 2,     <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:beaches"}));
+mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin> * 2,     <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:taiga"}));
+mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin> * 2,     <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:forest"}));
 mods.farmingforblockheads.Trade.add(<contenttweaker:biome_coin> * 5, <randomthings:biomecrystal:0>.withTag({biomeName:"minecraft:mesa"}));
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:biome_coin>, <randomthings:biomecrystal:0>, 30000);
 
@@ -336,7 +334,7 @@ mods.embers.Mixer.add(
     <liquid:dawnstone>*7
   ]
 );
-mods.mekanism.reaction.addRecipe(<mekanism:ingot:0>, <liquid:modularium_fluid>*1000, <gas:sulfuricacid>*40, <modularmachinery:itemmodularium:0>, <gas:oxygen>*10, 20000, 200);
+mods.mekanism.reaction.addRecipe(<mekanism:ingot:0>, <liquid:modularium_fluid>*1000, <gas:sulfuricacid>*200, <modularmachinery:itemmodularium:0>, <gas:oxygen>*10, 200, 200);
 
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
 mods.embers.Alchemy.add(
@@ -371,7 +369,7 @@ mods.mekanism.reaction.addRecipe(<mekanism:polyethene>, <liquid:liquidethene>, <
 
 mods.pneumaticcraft.assembly.addDrillRecipe(<modularmachinery:blockcasing:0>, <modulardiversity:blockmystmechinput:0>);
 
-mods.immersiveengineering.BottlingMachine.addRecipe(<thermalfoundation:material:1028>, <bloodarsenal:base_item:2>, <liquid:mana>*500);
+mods.immersiveengineering.BottlingMachine.addRecipe(<thermalfoundation:material:1028>, <bloodarsenal:base_item:2>, <liquid:mana>*288);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(
   <contenttweaker:ture_rune>, 
@@ -419,3 +417,59 @@ mods.thermalexpansion.Factorizer.addRecipeCombine(<contenttweaker:blood_iron_nug
 mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:causality_collapser:0>);
 
 mods.botania.ElvenTrade.addRecipe([<endstart:extra:42>], [<evilcraft:environmental_accumulation_core:0>]);
+
+mods.abyssalcraft.InfusionRitual.removeRitual(<abyssalcraft:gatewaykeydl:0>);
+
+mods.botania.ManaInfusion.addAlchemy(<modularmachinery:itemblueprint:0>.withTag({dynamicmachine:"modularmachinery:mana_mixer"}), <pneumaticcraft:plastic:4>, 10000);
+
+mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:coal_block:0> * 8);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:5>.withTag({uses:10}), <contenttweaker:obsidian_plus:0>, 3, 4000,30,40);
+
+mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:ghast_tear:0>);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:4>.withTag({uses:10}), <twilightforest:carminite:0>, 2, 2000,30,40);
+
+mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:obsidian:0>);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:3>.withTag({uses:10}), <enderio:block_alloy:6>, 2, 2000,30,40);
+
+mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:magma_cream:0>);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:2>.withTag({uses:10}), <embers:wildfire_core:0>, 2, 2000,30,40);
+
+mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:lapis_block:0>);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:1>.withTag({uses:10}), <actuallyadditions:block_crystal_empowered:1>, 2, 2000,30,40);
+
+mods.abyssalcraft.InfusionRitual.removeRitual(<abyssalcraft:energycontainer:0>.withTag({PotEnergy:0.0f}));
+
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:obsidian_plus>, <evilcraft:blood_waxed_coal_block:0>, <liquid:refinedobsidian>, 1440, true);
+
+mods.recipestages.Recipes.addShaped("escape", <minecraft:crafting_table:0>,
+  [[<ore:plankWood>,<ore:plankWood>],
+   [<ore:plankWood>,<ore:plankWood>]
+  ]);
+mods.recipestages.Recipes.addShaped("escape", <minecraft:furnace:0>,
+  [[<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
+   [<ore:cobblestone>, null, <ore:cobblestone>],
+   [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>]
+  ]);
+mods.tconstruct.Casting.addTableRecipe(<enderio:item_basic_capacitor:0>, <contenttweaker:capacitor_base:0>, <liquid:energetic_alloy>, 144, true);
+
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lightwell");
+
+mods.immersiveengineering.MetalPress.addRecipe(<extendedcrafting:material:2>,<extendedcrafting:material:0>,<immersiveengineering:mold:0>, 2000);
+
+mods.immersiveengineering.Blueprint.addRecipe("extendedcrafting", <extendedcrafting:material:14>, [<extendedcrafting:material:2>, <extendedcrafting:material:7>, <enderio:item_alloy_ingot:5> * 2]);
+recipes.addShaped(<immersiveengineering:blueprint:0>.withTag({blueprint:"extendedcrafting"}), [[<pneumaticcraft:pcb_blueprint:0>]]);
+
+mods.immersiveengineering.Blueprint.addRecipe("extendedcrafting", <extendedcrafting:material:8>, [<extendedcrafting:material:14> * 4, <extendedcrafting:material:2>, <actuallyadditions:item_crystal_empowered:5>]);
+
+mods.immersiveengineering.Blueprint.addRecipe("extendedcrafting", <extendedcrafting:material:15>, [<extendedcrafting:material:2>, <extendedcrafting:material:7>, <enderio:item_alloy_ingot:2> * 2]);
+mods.immersiveengineering.Blueprint.addRecipe("extendedcrafting", <extendedcrafting:material:9>, [<extendedcrafting:material:15> * 4, <extendedcrafting:material:2>, <actuallyadditions:item_crystal_empowered:0>]);
+
+mods.immersiveengineering.Blueprint.addRecipe("extendedcrafting", <extendedcrafting:material:16>, [<extendedcrafting:material:2>, <extendedcrafting:material:7>, <enderio:item_material:15>]);
+mods.immersiveengineering.Blueprint.addRecipe("extendedcrafting", <extendedcrafting:material:10>, [<extendedcrafting:material:16> * 4, <extendedcrafting:material:2>, <actuallyadditions:item_crystal_empowered:2>]);
+
+mods.immersiveengineering.Blueprint.addRecipe("extendedcrafting", <extendedcrafting:material:17>, [<extendedcrafting:material:2>, <extendedcrafting:material:7>, <enderio:item_material:18>]);
+mods.immersiveengineering.Blueprint.addRecipe("extendedcrafting", <extendedcrafting:material:11>, [<extendedcrafting:material:17> * 4, <extendedcrafting:material:2>, <actuallyadditions:item_crystal_empowered:4>]);
+
+mods.extendedcrafting.TableCrafting.addShapeless(1, <ic2:crafting:1>, [<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:alloyBasic>,<enderio:item_basic_capacitor:0>,<ore:alloyBasic>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>]);
+mods.extendedcrafting.TableCrafting.addShapeless(1, <ic2:crafting:2>, [<ore:gemLapis>,<ore:nuggetVibrantAlloy>,<ore:gemLapis>,<ore:nuggetVibrantAlloy>,<ore:circuitBasic>,<ore:nuggetVibrantAlloy>,<ore:gemLapis>,<ore:nuggetVibrantAlloy>,<ore:gemLapis>]);
+mods.extendedcrafting.TableCrafting.addShapeless(1, <ic2:crafting:6>, [<ore:plateIron>,<ic2:casing:6>,<ore:plateIron>,<ore:ingotIron>,<ic2:crafting:5>,<ore:ingotIron>,<ore:plateIron>,<ic2:casing:6>,<ore:plateIron>]);

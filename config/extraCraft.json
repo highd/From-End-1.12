@@ -26,7 +26,10 @@
 	  "avaritia:extreme_crafting_table:0":"mods.avaritia.ExtremeCrafting.addShaped(\"$(0,1)\",$(0,0),[[$(1,0),$(2,0),$(3,0),$(4,0),$(5,0),$(6,0),$(7,0),$(8,0),$(9,0)],[$(1,1),$(2,1),$(3,1),$(4,1),$(5,1),$(6,1),$(7,1),$(8,1),$(9,1)],[$(1,2),$(2,2),$(3,2),$(4,2),$(5,2),$(6,2),$(7,2),$(8,2),$(9,2)],[$(1,3),$(2,3),$(3,3),$(4,3),$(5,3),$(6,3),$(7,3),$(8,3),$(9,3)],[$(1,4),$(2,4),$(3,4),$(4,4),$(5,4),$(6,4),$(7,4),$(8,4),$(9,4)],[$(1,5),$(2,5),$(3,5),$(4,5),$(5,5),$(6,5),$(7,5),$(8,5),$(9,5)],[$(1,6),$(2,6),$(3,6),$(4,6),$(5,6),$(6,6),$(7,6),$(8,6),$(9,6)],[$(1,7),$(2,7),$(3,7),$(4,7),$(5,7),$(6,7),$(7,7),$(8,7),$(9,7)],[$(1,8),$(2,8),$(3,8),$(4,8),$(5,8),$(6,8),$(7,8),$(8,8),$(9,8)]]);mods.extendedcrafting.TableCrafting.addShaped(4,$(0,0),[[$(1,0),$(2,0),$(3,0),$(4,0),$(5,0),$(6,0),$(7,0),$(8,0),$(9,0)],[$(1,1),$(2,1),$(3,1),$(4,1),$(5,1),$(6,1),$(7,1),$(8,1),$(9,1)],[$(1,2),$(2,2),$(3,2),$(4,2),$(5,2),$(6,2),$(7,2),$(8,2),$(9,2)],[$(1,3),$(2,3),$(3,3),$(4,3),$(5,3),$(6,3),$(7,3),$(8,3),$(9,3)],[$(1,4),$(2,4),$(3,4),$(4,4),$(5,4),$(6,4),$(7,4),$(8,4),$(9,4)],[$(1,5),$(2,5),$(3,5),$(4,5),$(5,5),$(6,5),$(7,5),$(8,5),$(9,5)],[$(1,6),$(2,6),$(3,6),$(4,6),$(5,6),$(6,6),$(7,6),$(8,6),$(9,6)],[$(1,7),$(2,7),$(3,7),$(4,7),$(5,7),$(6,7),$(7,7),$(8,7),$(9,7)],[$(1,8),$(2,8),$(3,8),$(4,8),$(5,8),$(6,8),$(7,8),$(8,8),$(9,8)]]);",
 	  "minecraft:glass:0":"mods.forestry.ThermionicFabricator.addCast($(0,0), [[$(0,1),$(1,1),$(2,1)],[$(0,2),$(1,2),$(2,2)],[$(0,3),$(1,3),$(2,3)]], <liquid: glass> * $(1,0));",
 	  "bloodmagic:soul_forge:0":"mods.bloodmagic.TartaricForge.addRecipe($(0,0),[$(0,1), $(1,1), $(2,1), $(3,1)], $(1,0), $(2,0));",
-	  "enderio:block_decoration1:14":"mods.abyssalcraft.SummonRitual.addRitual(\"$(1,0)\", $(0,2), $(1,2), $(2,2), $(3,2), \"$(0,0)\", [$(1,\"$\",\",\")]);"
+	  "enderio:block_decoration1:14":"mods.abyssalcraft.SummonRitual.addRitual(\"$(1,0)\", $(0,2), $(1,2), $(2,2), $(3,2), \"$(0,0)\", [$(1,\"$\",\",\")]);",
+	  "immersiveengineering:metal_decoration0:0":"mods.immersiveengineering.Blueprint.addRecipe(\"extendedcrafting\", $(0,0), [$(1,\"$\",\",\")]);",
+	  "extendedcrafting:table_basic:0":"mods.extendedcrafting.TableCrafting.addShapeless(1, $(0,0), [$(0,1),$(1,1),$(2,1),$(0,2),$(1,2),$(2,2),$(0,3),$(1,3),$(2,3)]);",
+	  "extendedcrafting:table_advanced:0":"mods.extendedcrafting.TableCrafting.addShapeless(2, $(0,0), [$(0,1),$(1,1),$(2,1),$(3,1),$(4,1),$(0,2),$(1,2),$(2,2),$(3,2),$(4,2),$(0,3),$(1,3),$(2,3),$(3,3),$(4,3),$(0,4),$(1,4),$(2,4),$(3,4),$(4,4),$(0,5),$(1,5),$(2,5),$(3,5),$(4,5)]);"
   },
   "nbtFilter": {
     "abyssalcraft:sacrificialaltar:0":["PotEnergy"],
@@ -39,11 +42,19 @@
 	"abyssalcraft:tieredenergypedestal:1":["PotEnergy"],
 	"abyssalcraft:tieredenergypedestal:2":["PotEnergy"],
 	"abyssalcraft:tieredenergypedestal:3":["PotEnergy"],
+	"abyssalcraft:energycontainer:0":["PotEnergy"],
 	"enderio:itemBrokenSpawner:0":["isVariant","entityId"],
 	"wizardry:nacre_pearl:0":["rand","complete","purity_override"],
 	"agricraft:agri_seed:0":["agri_analyzed","agri_strength","agri_gain","agri_growth"],
 	"thermalexpansion:machine:0":["RSControl","Facing","Energy","SideCache","Level"],
-	"randomthings:timeinabottle:0":["timeData.storedTime"]
+	"randomthings:timeinabottle:0":["timeData.storedTime"],
+	"astralsorcery:itemrockcrystalsimple:0":[
+		"astralsorcery.crystalProperties.collectiveCapability",
+		"astralsorcery.crystalProperties.size",
+		"astralsorcery.crystalProperties.fract",
+		"astralsorcery.crystalProperties.purity",
+		"astralsorcery.crystalProperties.sizeOverride"
+	]
   },
   "widthMap": {
     "minecraft:chest": 9,
@@ -68,6 +79,12 @@
 	"environmentaltech:aethium:0",
 	"bloodarsenal:blood_infused_iron_block:0",
 	"evilcraft:undead_sapling:0",
-	"minecraft:blaze_powder:0"
+	"minecraft:blaze_powder:0",
+	"twilightforest:raven_feather:0",
+	"minecraft:skull:0",
+	"minecraft:skull:1",
+	"minecraft:skull:2",
+	"minecraft:skull:4",
+	"minecraft:skull:5"
   ]
 }

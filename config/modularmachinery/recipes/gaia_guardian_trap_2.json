@@ -1,0 +1,138 @@
+{
+    "machine": "gaia_guardian_trap",
+    "registryName": "gaia_guardian_trap_2",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 500000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:manaResource@14",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "endstart_essence",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:manaResource@5",
+            "amount": 16
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:blackLotus@0",
+            "amount": 1,
+            "chance": 0.3
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:blackLotus@1",
+            "amount": 1,
+            "chance": 0.7
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:ancientWill@0",
+            "amount": 1,
+            "chance": 0.16
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:ancientWill@1",
+            "amount": 1,
+            "chance": 0.16
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:ancientWill@2",
+            "amount": 1,
+            "chance": 0.16
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:ancientWill@3",
+            "amount": 1,
+            "chance": 0.16
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:ancientWill@4",
+            "amount": 1,
+            "chance": 0.16
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:ancientWill@5",
+            "amount": 1,
+            "chance": 0.16
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:overgrowthSeed",
+            "amount": 2
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:manaResource",
+            "amount": 18
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:manaResource@1",
+            "amount": 7
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:manaResource@2",
+            "amount": 2
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:pinkinator",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:pinkinator",
+            "amount": 1,
+            "chance": 0.2
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:dice",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "machine": "super_empowerer",
+    "registryName": "empowerer_palis",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 50000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "actuallyadditions:block_crystal_empowered@1",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "actuallyadditions:block_crystal@1",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:gemDarkPower",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotBrass",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:compresseddiamond",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:rune@3",
+            "amount": 1
+        }
+    ]
+}

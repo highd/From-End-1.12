@@ -1,6 +1,13 @@
 item.contenttweaker.biome_coin.name=バイオーム コイン
 tile.contenttweaker.unstable_block.name=不安定ブロック
+tile.contenttweaker.obsidian_plus.name=黒曜石Ex
+tile.contenttweaker.pylon.name=支柱ブロック
+
 fluid.modularium_fluid=モジュラニウムベース
+fluid.endstart_soul_fuel=魂の燃料
+fluid.endstart_essence=ハイパー　エッセンス
+
 item.contenttweaker.blood_iron_nugget.name=血を注入した鉄塊
 item.contenttweaker.ture_rune.name=真理のルーン
 item.contenttweaker.gem1.name=純粋な宝石
+item.contenttweaker.capacitor_base.name=コンデンサの基礎

@@ -8,10 +8,9 @@
             "io-type": "input",
             "mana": 10000
         },{
-            "type": "mechanical",
+            "type": "mysticalmechanics",
             "io-type": "input",
-            "level": 1,
-            "crank-allowed": false
+            "levelRequiredMin": 10
         },{
             "type": "mekheat",
             "io-type": "input",
@@ -22,7 +21,7 @@
             "type": "fluid",
             "io-type": "input",
             "fluid": "enderium",
-            "amount": 1000
+            "amount": 288
         },
         {
             "type": "item",
@@ -64,7 +63,7 @@
             "type": "fluid",
             "io-type": "output",
             "fluid": "mana",
-            "amount": 500
+            "amount": 288
         }
     ]
 }

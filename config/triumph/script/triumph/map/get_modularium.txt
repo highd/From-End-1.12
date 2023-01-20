@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.map.get_modularium.title")
+setIcon(<modularmachinery:itemmodularium, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.map.get_modularium.description")
+setPos(-84,-5)
+addParent("triumph:map/root")
+criteria = addCriteria("get_modularium", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:itemmodularium, meta:0, count:1>)

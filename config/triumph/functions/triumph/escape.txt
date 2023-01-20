@@ -1,0 +1,3 @@
+gamestage add @p escape
+give @p telepastries:end_cake
+give @p simple_trophies:trophy 1 0 {TrophyColorGreen:205,TrophyVariant:"classic",TrophyShowsTooltip:1b,TrophyItem:{id:"minecraft:end_stone",Count:1b,Damage:0s},TrophyColorBlue:52,TrophyName:"trophies.escape.name",TrophyColorRed:65}

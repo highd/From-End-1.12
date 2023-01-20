@@ -1,0 +1,79 @@
+{
+    "machine": "gaia_guardian_trap",
+    "registryName": "gaia_guardian_trap_3",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000000
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "endstart_essence",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrabotany:natureorb",
+            "amount": 1,
+            "nbt": {
+                "xp": "500000"
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extrabotany:natureorb",
+            "amount": 1,
+            "nbt": {
+                "xp": "300000"
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extrabotany:rewardbag",
+            "amount": 1,
+            "nbt": {
+                "weight": "96"
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extrabotany:rewardbag@1",
+            "amount": 1,
+            "nbt": {
+                "weight": "76"
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extrabotany:rewardbag@2",
+            "amount": 1,
+            "nbt": {
+                "weight": "113"
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extrabotany:rewardbag@3",
+            "amount": 1,
+            "nbt": {
+                "weight": "189"
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extrabotany:material@3",
+            "amount": 1
+        }
+
+    ]
+}

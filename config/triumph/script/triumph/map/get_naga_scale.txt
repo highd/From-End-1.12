@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.map.get_naga_scale.title")
+setIcon(<twilightforest:naga_scale, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.map.get_naga_scale.description")
+setPos(-50,-56)
+addParent("triumph:map/go_twilightforest")
+criteria = addCriteria("get_naga_scale", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:naga_scale, meta:0, count:1>)

@@ -194,5 +194,54 @@ advancements.fromend.map.root.description=JournyMapの解放を目指しまし�
 book.fromend.name=From Endの説明書
 book.fromend.landing_text=この説明書ではこのModpackの進め方や注意事項、独自システムについて解説します。
 
+advancements.fromend.map.get_altar_1.title=星々の力を
+advancements.fromend.map.get_altar_1.description=光明の作業台を作る。
+
+advancements.fromend.map.get_altar_2.title=もっと星々の力を
+advancements.fromend.map.get_altar_2.description=星明かりのクラフト祭壇を作る。
+
+advancements.fromend.map.get_gaia_plate.title=もっと大地の力を
+advancements.fromend.map.get_gaia_plate.description=Gaia Agglomaration Plateを作る
+
+advancements.fromend.map.get_gaia_pylon.title=守護者への挑戦
+advancements.fromend.map.get_gaia_pylon.description=ガイアの支柱をつくり、ガイアの守護者に挑む。
+
+advancements.fromend.map.get_key.title=深淵への突入
+advancements.fromend.map.get_key.description=Gateway Keyを作り、Wastelandへ向かう。
+
+advancements.fromend.map.get_knightmetal.title=騎士への挑戦
+advancements.fromend.map.get_knightmetal.description=ナイトメタルインゴットを手にいれる
+
+advancements.fromend.map.get_ligthwell.title=光を集めて
+advancements.fromend.map.get_ligthwell.description=光井を作る
+
+advancements.fromend.map.get_modularium.title=大きな装置を
+advancements.fromend.map.get_modularium.description=Modulariumを作る。
+
+advancements.fromend.map.get_naga_scale.title=大蛇への挑戦
+advancements.fromend.map.get_naga_scale.description=ナーガを倒し、ナーガの鱗を手にれる
+
+advancements.fromend.map.get_nasa_workbench.title=宇宙を夢見て
+advancements.fromend.map.get_nasa_workbench.description=NASA作業台を作る。
+
+advancements.fromend.map.get_necronomicon.title=禁忌
+advancements.fromend.map.get_necronomicon.description=Necronomiconを作る。
+
+advancements.fromend.map.get_smeltery_controller.title=鋳造の力
+advancements.fromend.map.get_smeltery_controller.description=溶解炉コントローラーを作る。
+
+advancements.fromend.map.get_tool_forge.title=新たなる武器!
+advancements.fromend.map.get_tool_forge.description=道具鍛冶台を作る。
+
+advancements.fromend.map.get_void_steel.title=虚無の力
+advancements.fromend.map.get_void_steel.description=虚無鋼インゴットを手にいれる。
+
+advancements.fromend.map.go_twilightforest.title=新たなる世界
+advancements.fromend.map.go_twilightforest.description=Dragonstoneを4マス以上の池に投げ込み、黄昏の森へ向かう。
+
 ac.ritual.cultistportallesser=紅の小ポータルの召喚
 ac.ritual.cultistportallesser.desc=
+
+desc.immersiveengineering.info.blueprint.extendedcrafting=強化作業台の素材
+
+trophies.escape.name=エンドからの脱出

@@ -1,0 +1,8 @@
+setTranslatedTitle("advancements.fromend.map.get_smeltery_controller.title")
+setIcon(<tconstruct:smeltery_controller, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.map.get_smeltery_controller.description")
+setPos(91,-5)
+addParent("triumph:map/get_altar_2")
+addParent("triumph:map/get_gaia_plate")
+criteria = addCriteria("get_smeltery_controller", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:smeltery_controller, meta:0, count:1>)

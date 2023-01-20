@@ -69,15 +69,6 @@
         },
         {
             "x": 0,
-            "y": 3,
-            "z": 1,
-            "nbt": {"ForgeCaps":{"abyssalcraft:itemtransfer":{"isRunning":"0b","configurations":[]}},"id":"botania:pylon"},
-            "elements": [
-                "botania:pylon@0"
-            ]
-        },
-        {
-            "x": 0,
             "y": 2,
             "z": 0,
             "elements": [
@@ -97,7 +88,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "botania:shimmerrock0slab@0"
+                "extrabotany:blockphotonium@0"
             ]
         },
         {

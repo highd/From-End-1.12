@@ -1,0 +1,45 @@
+{
+    "machine": "mana_mixer",
+    "registryName": "essence_mixer",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "mana",
+            "io-type": "input",
+            "mana": 10000
+        },{
+            "type": "mysticalmechanics",
+            "io-type": "input",
+            "levelRequiredMin": 10
+        },{
+            "type": "mekheat",
+            "io-type": "input",
+            "temperatureRequiredMin": 10,
+            "temperature": 1000
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ender_distillation",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:manaresource@8",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "bloodmagic:item_demon_crystal",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "endstart_essence",
+            "amount": 1000
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.map.go_twilightforest.title")
+setIcon(<twilightforest:miniature_structure, meta:0, count:1>)
+setTranslatedDescription("advancements.fromend.map.go_twilightforest.description")
+setPos(-84,-39)
+addParent("triumph:map/root")
+criteria = addCriteria("go_twilightforest", "minecraft:inventory_changed")
+criteria.addItem(<botania:manaresource, ore:elvenDragonstone, meta:9, count:1>)

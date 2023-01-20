@@ -1,0 +1,37 @@
+{
+    "machine": "gaia_guardian_trap",
+    "registryName": "gaia_guardian_trap_1",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 200000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:manaResource@4",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "endstart_essence",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:manaResource@5",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:recordGaia1",
+            "amount": 1,
+            "chance": 0.2
+        }
+    ]
+}

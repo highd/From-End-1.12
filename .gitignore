@@ -30,3 +30,6 @@ config/jei/bookmarks.ini
 config/jei/worldSettings.cfg
 config/codechicken/supporters.marker
 config/journeymap_ModInfo.cfg
+block.csv
+screenshots_20220101.zip
+.gitignore

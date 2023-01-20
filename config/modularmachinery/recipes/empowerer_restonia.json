@@ -11,13 +11,13 @@
         {
             "type": "item",
             "io-type": "output",
-            "item": "actuallyadditions:block_crystal_empowered@3",
+            "item": "actuallyadditions:block_crystal_empowered@0",
             "amount": 1
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "actuallyadditions:block_crystal@3",
+            "item": "actuallyadditions:block_crystal@0",
             "amount": 1
         },
         {
@@ -41,7 +41,7 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "ore:runeFireB",
+            "item": "botania:rune",
             "amount": 1
         }
     ]

@@ -1,0 +1,11 @@
+{
+    "name": "Stove",
+    "icon": "endstart:stove",
+    "category": "patchouli:end_start_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

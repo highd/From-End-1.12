@@ -125,3 +125,7 @@ book.fromend.landing_text=This manual explains how to proceed, precautions, and 
 
 ac.ritual.cultistportallesser=Summon Lesser Crimson Portal
 ac.ritual.cultistportallesser.desc=
+
+desc.immersiveengineering.info.blueprint.extendedcrafting=Extended Crafting Table Material
+
+trophies.escape.name=WIP

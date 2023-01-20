@@ -1,0 +1,7 @@
+setTranslatedTitle("advancements.fromend.map.get_tool_forge.title")
+setIcon(<tconstruct:toolforge, meta:0, count:1, nbt:{textureBlock:{id:"enderio:block_alloy",Count:1b,Damage:0s}}>)
+setTranslatedDescription("advancements.fromend.map.get_tool_forge.description")
+setPos(26,-75)
+addParent("triumph:map/get_knightmetal")
+criteria = addCriteria("get_tool_forge", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:toolforge, meta:0, count:1, nbt:{textureBlock:{id:"enderio:block_alloy",Count:1b,Damage:0s}}>)
